@@ -940,6 +940,7 @@ status: draft # draft | reviewed | delivered
 | **Fivecast** | Predictive analysis with ML | https://www.fivecast.com | Real-time threat detection |
 | **HyperVerge** | Deepfake detection | https://hyperverge.co | AI biometric verification |
 | **ShadowDragon** | Social Darkint with AI | https://shadowdragon.io | Behavior analysis |
+| **Jev Social** | AI-guided social-media research | https://github.com/socai-io/jev-social | Local Chrome; open source |
 | **Talkwalker** | Media monitoring with AI | https://www.talkwalker.com | Sentiment analysis |
 | **DorkGPT** | AI dork generator | https://www.dorkgpt.com | Auto-creates Google dorks |
 | **SearchDorks** | Dorks for multiple engines | https://kriztalz.sh/search-dorks | FOFA, Shodan, Censys |
