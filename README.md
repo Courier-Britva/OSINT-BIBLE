@@ -267,13 +267,13 @@ graph TD
 
 ## 5. Social Networks
 ### 5.1 Facebook
-1. **Facebook Recover Lookup** - Link: [Facebook Recover Lookup](https://www.facebook.com/login/identify?ctx=recover) - Description: Used to check if a given email or phone number is associated with any Facebook account or not.
+1. **Facebook Recover Lookup** - Link: [Facebook Recover Lookup](https://www.facebook.com/login/identify?ctx=recover) *(requires a logged-in session)* - Description: Used to check if a given email or phone number is associated with any Facebook account or not.
 2. **Social Searcher** - Link: [Social Searcher](https://www.social-searcher.com/) - Description: Allows you to monitor all public social mentions in social networks and the web.
 3. **Lookup-id.com** - Link: [Lookup-id.com](https://lookup-id.com/) - Description: Helps you find the Facebook ID of anyone's profile or a Group.
 4. **Who posted this** - Link: [Who posted this](https://whopostedwhat.com/) - Description: Facebook keyword search for people who work in the public interest. It allows you to search keywords on specific dates.
 5. **Facebook Search** - Link: [Facebook Search](https://www.sowsearch.info/) - Description: Allows you to search on Facebook for posts, people, photos, etc., using some filters.
-6. **Facebook Graph Searcher** - Link: [Facebook Graph Searcher](https://intelx.io/tools?tab=facebook) - Description: To search someone on Facebook.
-7. **Facebook People Search** - Link: [Facebook People Search](https://www.facebook.com/directory/people/) - Description: Search on Facebook by victim's name.
+6. **Facebook Graph Searcher** - Link: [Facebook Graph Searcher](https://intelx.io/tools) - Description: To search someone on Facebook.
+7. **Facebook People Search** - Link: [Facebook People Search](https://www.facebook.com/directory/people/) *(HTTP 400 from automated link checks; confirm availability in a browser)* - Description: Search on Facebook by victim's name.
 8. **DumpItBlue** - Link: [DumpItBlue+](https://chromewebstore.google.com/detail/dumpitblue+/igmgknoioooacbcpcfgjigbaajpelbfe) - Description: helps to dump Facebook stuff for analysis or reporting purposes.
 9. **Export Comments** - Link: [Export Comments](https://exportcomments.com/) - Description: Easily exports all comments from your social media posts to Excel file.
 10. **Facebook Applications** - Link: [Facebook Applications](https://khalil-shreateh.com/khalil.shtml/social_applications/facebook-applications/) - Description: A collection of online tools that automate and facilitate Facebook.
@@ -310,7 +310,7 @@ graph TD
 5. **ReverseContact** - Link: [Reverse Email Lookup](https://www.reversecontact.com/) - Description: Find Linked Profiles associated with any email.
 6. **LinkedIn Search Engine** - Link: [Programmable Search Engine](https://cse.google.com/cse?cx=daaf18e804f81bed0) - Description: Programmable Search Engine for LinkedIn profiles.
 7. **Free People Search Tool** - Link: [Free People Search Tool](https://freepeoplesearchtool.com/#gsc.tab=0) - Description: Find people easily online.
-8. **IntelligenceX Linkedin** - Link: [IntelligenceX Linkedin](https://intelx.io/tools?tab=linkedin) - Description: A webbased tool for searching someone on Linkedin.
+8. **IntelligenceX Linkedin** - Link: [IntelligenceX Linkedin](https://intelx.io/tools) - Description: A webbased tool for searching someone on Linkedin.
 9. **Linkedin Search Tool** - Link: [Linkedin Search Tool](https://inteltechniques.com/tools/Linkedin.html) - Description: Provides you a interface with various tools for Linkedin Osint.
 10. **LinkedInt** - Link: [LinkedInt](https://github.com/vysecurity/LinkedInt) - Description: Providing you with Linkedin Intelligence.
 11. **InSpy** - Link: [InSpy](https://github.com/jobroche/InSpy) - Description: InSpy is a python based LinkedIn enumeration tool.
@@ -496,7 +496,7 @@ python3 gitgot.py -q "ORGNAME"
 1. **ChatBottle: Telegram** - Link: [ChatBottle: Telegram](https://chatbottle.co/bots/telegram) - Description: A directory of Telegram bots for various purposes.
 2. **ChatToday** - Link: [ChatToday](https://chattoday.com) - Description: An online chat platform for connecting and chatting with people from around the world.
 3. **informer** - Link: [informer](https://github.com/paulpierre/informer) - Description: A Python library for retrieving information about Telegram channels, groups, and users.
-4. **_IntelligenceX: Telegram** - Link: [_IntelligenceX: Telegram](https://intelx.io/tools?tab=telegram) - Description: IntelligenceX's Telegram tool for searching and analyzing Telegram data.
+4. **_IntelligenceX: Telegram** - Link: [_IntelligenceX: Telegram](https://intelx.io/tools) - Description: IntelligenceX's Telegram tool for searching and analyzing Telegram data.
 5. **Lyzem.com** - Link: [Lyzem.com](https://lyzem.com) - Description: A website to search and find Telegram groups and channels.
 6. **Telegram Channels** - Link: [Telegram Channels](https://telegramchannels.me) - Description: A directory of Telegram channels covering various topics.
 7. **Telegram Channels** - Link: [Telegram Channels](https://tlgrm.eu/channels) - Description: A platform to discover and browse Telegram channels.
@@ -721,7 +721,7 @@ Following the withdrawal of Russian troops from Bucha (Ukraine) in March 2022, i
 | threatfeeds.io | threatfeeds.io | `https://threatfeeds.io` |
 | threatfox | threatfox | `https://threatfox.abuse.ch/` |
 | Technical Blogs (Dataminr) | Technical Blogs | `https://www.dataminr.com/blog/` |
-| ThreatExchange | ThreatExchange | `https://developers.facebook.com/docs/threat-exchange/` |
+| ThreatExchange | ThreatExchange | `https://developers.facebook.com/docs/threat-exchange/` *(HTTP 400 from automated link checks; confirm availability in a browser)* |
 | TypeDB CTI | TypeDB CTI | `https://github.com/typedb-osi/typedb-cti` |
 | XFE | XFE | `https://exchange.xforce.ibmcloud.com/` |
 | Yeti | Yeti | `https://yeti-platform.io/` |
@@ -2481,7 +2481,7 @@ Canada has ~36 million internet users (~94% penetration). Google dominates searc
 
 | Source | URL | Function |
 |---|---|---|
-| Corporations Canada | https://www.ic.gc.ca/app/scr/cc/CorporationsCanada/feder.html | Federal corporate registry |
+| Corporations Canada | https://ised-isde.canada.ca/cc/lgcy/ | Federal corporate registry |
 | Industry Canada Open Data | https://open.canada.ca | Federal open data portal |
 | Canada Gazette | https://gazette.gc.ca/accueil-home-eng.html | Official gazette |
 | CASL Registry | https://crtc.gc.ca/eng/internet/anti.htm | Anti-spam compliance |
@@ -3691,7 +3691,7 @@ Internet penetration ~91% (ABS 2024). Google dominates search. WhatsApp, iMessag
 **Limitations & controversies:**
 
 - **US bans (2017 + 2024):** DHS banned Kaspersky products from US federal networks in 2017 (BND 2017-138). BIS (Bureau of Industry and Security) extended the ban to all US consumer and commercial sales in 2024. URL: https://en.wikipedia.org/wiki/Kaspersky_Lab.
-- **Kaspersky's denial:** Company has consistently denied improper ties to Russian intelligence. NPR interview: https://www.npr.org/2024/06/20/nx-s1-5013739/biden-administration-bans-kaspersky-lab-antivirus-software-citing-russian-ties
+- **Kaspersky's denial:** Company has consistently denied improper ties to Russian intelligence.
 - **Global Transparency Initiative (GTI):** Kaspersky launched the GTI in 2018 to address trust concerns: moved data processing to Zurich (2018), opened Transparency Centers in multiple countries (https://gti.kaspersky.com). URL: https://www.kaspersky.com/transparency-center
 - **Bias check:** Despite governance concerns, Kaspersky's *technical* research quality is widely respected. Mandiant, CrowdStrike and other Western vendors continue to cite Kaspersky research in their own publications. The technical research and the governance/jurisdiction risk are separate issues — investigators should evaluate the technical content on its merits while being aware of the geopolitical context.
 
