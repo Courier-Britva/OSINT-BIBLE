@@ -246,6 +246,12 @@ graph TD
 - [Crisis24](https://crisis24.garda.com) → security risk management
 - [arXiv](https://arxiv.org) → scientific papers
 
+### 4.2.1 Verified addition (2026-09)
+
+| Resource | Stars | Last push | What it adds |
+|---|---|---|---|
+| [awesome-censys-queries](https://github.com/thehappydinoa/awesome-censys-queries) | 1,244 | 2026-07 | Curated set of non-obvious Censys queries for asset discovery |
+
 ### 4.3 Archives and snapshots
 - [Wayback Machine](https://archive.org/web)
 - [CachedView](https://cachedview.com) (Google + Archive.is)
@@ -570,6 +576,12 @@ exiftool -all= foto_sanitizada.jpg
 - [Skyline Webcams](https://www.skylinewebcams.com/en/webcam) → skyline webcams
 - [Pictimo](https://www.pictimo.com) → world webcams
 - [CamHacker](https://www.camhacker.com) → public webcams
+
+### 6.2.1 Verified addition (2026-09)
+
+| Tool | Stars | Language | Last push | What it adds |
+|---|---|---|---|---|
+| [GeoWiFi](https://github.com/GONZOsint/geowifi) | 1,510 | Python | 2026-09 | Geolocates a BSSID or SSID against public Wi-Fi geolocation databases |
 
 ### 6.3 Satellite / Drone
 - [Copernicus Browser](https://browser.dataspace.copernicus.eu) → Sentinel-1/2/3/5P, free browser
@@ -1142,6 +1154,12 @@ sudo systemctl restart piaware
 
 ---
 
+### 20.5 Verified addition (2026-09)
+
+| Tool | Stars | Language | Last push | What it adds |
+|---|---|---|---|---|
+| [SingleFile](https://github.com/gildas-lormeau/SingleFile) | 22,484 | JavaScript | 2026-09 | Saves a faithful, self-contained copy of a full web page for archival and verification |
+
 ## 21. Username Enumeration
 
 **Beyond Maigret and Sherlock:**
@@ -1232,6 +1250,16 @@ masscan: ~5 seconds (less detail)
 
 ---
 
+### 24.5 Verified additions (2026-09)
+
+| Tool | Stars | Language | Last push | What it adds |
+|---|---|---|---|---|
+| [bbot](https://github.com/blacklanternsecurity/bbot) | 10,623 | Python | 2026-09 | Recursive internet scanner with module chaining |
+| [reNgine](https://github.com/yogeshojha/rengine) | 8,860 | HTML | 2026-09 | Web recon framework with a database-driven UI and configurable scan engines |
+| [reconFTW](https://github.com/six2dez/reconftw) | 8,145 | Shell | 2026-09 | Automated recon pipeline that chains best-in-class tools per phase |
+| [Osmedeus](https://github.com/j3ssie/osmedeus) | 6,579 | Go | 2026-09 | Workflow engine for offensive security and recon orchestration |
+| [IVRE](https://github.com/ivre/ivre) | 4,154 | Python | 2026-09 | Self-hosted network reconnaissance framework for scans you own |
+
 ## 25. Dark Web
 
 **Specialized tools:**
@@ -1278,6 +1306,16 @@ python3 sf.py -l 127.0.0.1:5001
 ```
 
 ---
+
+### 26.9 Verified additions (2026-09)
+
+| Tool | Stars | Language | Last push | What it adds |
+|---|---|---|---|---|
+| [web-check](https://github.com/lissy93/web-check) | 34,921 | TypeScript | 2026-09 | All-in-one OSINT dashboard for any website: DNS, headers, TLS, technology stack and threat intel |
+| [social-analyzer](https://github.com/qeeqbox/social-analyzer) | 24,113 | JavaScript | 2026-01 | Detects a person's profile across 1,000+ social sites, with API, CLI and web app |
+| [flowsint](https://github.com/reconurge/flowsint) | 8,933 | TypeScript | 2026-09 | Graph-based investigation platform: entities, relationships and visual analysis |
+| [osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | 8,874 | HTML | 2026-05 | Several hundred online OSINT tools, catalogued by task |
+| [OpenOSINT](https://github.com/OpenOSINT/OpenOSINT) | 1,645 | Python | 2026-09 | OSINT agent with REPL, MCP server and CLI; 20 tools, works with local models |
 
 ## 27. Advanced Maltego
 
@@ -1514,6 +1552,13 @@ site:*.*.target.com
 | **AlienVault OTX** | Threat exchange | https://otx.alienvault.com |
 
 ---
+
+### 33.5 CTI correlation additions (2026-09)
+
+| Platform | Stars | Language | Last push | What it adds |
+|---|---|---|---|---|
+| [IntelOwl](https://github.com/intelowlproject/IntelOwl) | 4,728 | Python | 2026-09 | Scalable CTI at volume: enriches observables through dozens of analyzers and connectors |
+| [harpoon](https://github.com/Te-k/harpoon) | 1,293 | Python | 2026-09 | CLI combining open-source intelligence and threat intelligence lookups |
 
 ## 34. ICS/OT & Critical-Infrastructure OSINT
 
@@ -2316,6 +2361,32 @@ Internet penetration ~93% of ~335M (Pew/ITU). Google (~88% market share), Bing, 
 - **Boston Marathon bombing misidentification (2013).** The cautionary counter-example: Reddit/Twitter crowd-sleuths wrongly identified missing student Sunil Tripathi as a suspect; he was later found dead by suicide. Teaching case on confirmation bias in OSINT.
 - **January 6 Capitol riot (2021).** Sedition Hunters (https://seditionhunters.org) and the FBI used Parler video metadata and facial matches to identify >1,400 suspects.
 
+#### Standard country template — 7 categories (2026-09)
+
+##### (1) Open bases and statistics
+- [U.S. Census Bureau](https://www.census.gov/) — official national statistics
+- [GovInfo](https://www.govinfo.gov/) — official publications of the federal government
+  *(official statistics portal covered above: Data.gov)*
+
+##### (2) Legal and tax information
+- [Regulations.gov](https://www.regulations.gov/) — federal rulemaking dockets and public comments
+  *(company filings covered above: SEC EDGAR, OpenCorporates)*
+
+##### (3) Maps and cadastre
+- No single federal cadastre: parcel and cadastral data are held at county and state level
+
+##### (4) Vehicles and licence plates
+- No public lookup: registration data is state-held and not queryable nationally
+
+##### (5) People: names, documents, social accounts, phones, identifiers
+- No national public people register: searches are per-state and per-court, not centralised
+  *(court records covered above: CourtListener, PACER, USCourts)*
+
+##### (6) Public procurement
+- [USAspending](https://www.usaspending.gov/) — federal awards and spending
+
+##### (7) WHOIS and infrastructure
+- Pending: the ARIN WHOIS interface previously linked no longer resolves; substitute not yet confirmed
 </details>
 
 <details>
@@ -2625,6 +2696,33 @@ Internet penetration ~93% (Bitkom 2024). Google dominates search; alternative pr
 - **Cum-Ex Files (2018).** Cross-border tax fraud scheme exposed by Correctiv and partners. URL: https://correctiv.org/en/thema/latest-stories/cumex-files-en/
 - **NSU (National Socialist Underground, 2011).** Neo-Nazi terror cell; investigation heavily criticised for intelligence failures.
 
+#### Standard country template — 7 categories (2026-09)
+
+##### (1) Open bases and statistics
+- [Bundesregierung](https://www.bundesregierung.de/) — federal government portal
+  *(official statistics covered above: Destatis; open data covered above: GovData)*
+
+##### (2) Legal and tax information
+- *(company register, federal gazette and transparency register covered above)*
+
+##### (3) Maps and cadastre
+- Address-to-parcel conversion is administered per federal state; there is no single national cadastre
+
+##### (4) Vehicles and licence plates
+- No public plate lookup: queries are limited to the registered holder
+
+##### (5) People: names, documents, social accounts, phones, identifiers
+- The Melderegister is not publicly accessible; requests are made through the municipality
+
+##### (6) Public procurement
+- *(official publication channel covered above: Bundesanzeiger)*
+
+##### (7) WHOIS and infrastructure
+- [DENIC](https://www.denic.de/) — .de registry
+  *(authorities covered above: BSI, BND, Verfassungsschutz)*
+
+##### Access note
+- Several German government portals return 4xx to automated clients while working normally in a browser. Confirm in a browser before treating any of them as dead.
 </details>
 
 <details>
@@ -2994,6 +3092,34 @@ Internet penetration ~73% (1.05 billion users, CNNIC 2024). The Great Firewall b
 - **ASPI Xinjiang Data Project (2020).** Mapped 380+ detention camps in Xinjiang using satellite imagery, government procurement documents, and leaked construction bids. URL: https://xjdp.aspi.org.au
 - **Pegasus Project (2021).** Forbidden Stories and Amnesty International investigation documented use of Pegasus spyware against Uyghur activists.
 
+#### Standard country template — 7 categories (2026-09)
+
+##### (1) Open bases and statistics
+- [National Bureau of Statistics](https://www.stats.gov.cn/) — national statistics
+- [CNNIC](https://www.cnnic.net.cn/) — internet statistics and the .cn registry
+
+##### (2) Legal and tax information
+- *(enterprise credit system covered above: gsxt.gov.cn; credit portal covered above: creditchina.gov.cn)*
+
+##### (3) Maps and cadastre
+- State mapping services require a domestic account; there is no open cadastre
+
+##### (4) Vehicles and licence plates
+- No public lookup
+
+##### (5) People: names, documents, social accounts, phones, identifiers
+- *(court portal covered above: chinacourt.cn)*
+
+##### (6) Public procurement
+- [China Government Procurement](https://www.ccgp.gov.cn/) — official procurement notices
+  *(HTTP 403 from automated link checks; confirm availability in a browser)*
+
+##### (7) WHOIS and infrastructure
+- *(stock exchange disclosure covered above: SSE, SZSE)*
+- ICP licence lookup (beian.miit.gov.cn) is unreachable from outside the country and is pending confirmation
+
+##### Access note
+- Most Chinese government portals return 4xx to non-domestic clients while working normally from inside China. Confirm in a browser before treating any of them as dead.
 </details>
 
 <details>
