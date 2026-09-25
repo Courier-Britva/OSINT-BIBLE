@@ -233,7 +233,7 @@ graph TD
 - [Labs TIB Geoestimation](https://labs.tib.eu/geoestimation) → geographic estimation
 - [Picarta](https://picarta.ai) → photo location prediction
 - [Tiny Scan](https://www.tiny-scan.com) → URL scanning
-- [ZeroDay](https://www.zero-day.cz) → zero-day vulnerabilities
+- [ZeroDay](https://www.cybersecurity-help.cz/vdb/zero-days/) → zero-day vulnerabilities
 - [Predicta Search](https://predictasearch.com) → digital search
 - [Ventusky](https://www.ventusky.com) → weather maps
 - [OSV](https://osv.dev) → open source vulnerabilities
@@ -678,7 +678,7 @@ Following the withdrawal of Russian troops from Bucha (Ukraine) in March 2022, i
 | Cyber Cure | Cyber Cure | `https://www.cybercure.ai/` |
 | DataPlane | DataPlane | `https://dataplane.org/` |
 | Focsec | Focsec | `https://focsec.com` |
-| Disposable Domains | Disposable Domains | `https://github.com/martenson/disposable-email-domains` |
+| Disposable Domains | Disposable Domains | `https://github.com/disposable-email-domains/disposable-email-domains` |
 | Emerging Threats | Emerging Threats | `http://rules.emergingthreats.net/fwrules/` |
 | ExoneraTor | ExoneraTor | `https://exonerator.torproject.org/` |
 | Exploitalert | Exploitalert | `http://www.exploitalert.com/` |
@@ -1152,7 +1152,7 @@ sudo systemctl restart piaware
 | **Maigret** | 500+ platforms | https://github.com/soxoj/maigret | More precise |
 | **WhatsMyName** | 600+ platforms | https://github.com/WebBreacher/WhatsMyName | Most complete |
 | **Snoop** | 320+ (RU/CIS emphasis) | https://github.com/snooppr/snoop | Russian/CIS |
-| **Blackbird** | 200+ with PDF report | https://github.com/p1ngul1n0/blackbird | Export |
+| **Blackbird** | 200+ with PDF report | https://github.com/antoniaci/blackbird | Export |
 | **UserSearch** | 600+ platforms | https://usersearch.org | Largest Reverse User Search Online |
 
 **Speed comparison:**
@@ -1219,7 +1219,7 @@ mat2 --inplace clean_document.pdf
 |---|---|---|---|
 | **Nmap** | Medium | https://nmap.org | Complete scan |
 | **Masscan** | Very fast | https://github.com/robertdavidgraham/masscan | Internet-scale |
-| **RustScan** | Very fast | https://github.com/RustScan/RustScan | Modern port |
+| **RustScan** | Very fast | https://github.com/bee-san/RustScan | Modern port |
 | **Nuclei** | Templates | https://github.com/projectdiscovery/nuclei | Vulnerabilities |
 
 **Speed comparison:**
@@ -1449,7 +1449,7 @@ site:*.*.target.com
 | **PitchBook** | Private company data | https://pitchbook.com |
 | **ZoomInfo** | Business contacts | https://www.zoominfo.com |
 | **D&B Hoovers** | Company profiles | https://app.dnbhoovers.com |
-| **Dun & Bradstreet** | Business credit reports | https://www.dnb.com |
+| **Dun & Bradstreet** | Business credit reports | https://www.dnb.com/en-us/ |
 | **EDGAR** | SEC filings | https://www.sec.gov/edgar |
 | **OpenCorporates** | Global company registry | https://opencorporates.com |
 | **Company House** | UK company registry | https://find-and-update.company-information.service.gov.uk |
@@ -1530,7 +1530,7 @@ site:*.*.target.com
 ### 34.2 Scanners & Tools
 | Tool | Function | URL |
 |---|---|---|
-| **IndustrialScanner-Lite** (author's) | Modbus/S7Comm/DNP3 PCAP analyzer | https://github.com/frangelbarrera/IndustrialScanner-Lite |
+| **IndustrialScanner** (author's) | Modbus/S7Comm/DNP3 PCAP analyzer | https://github.com/frangelbarrera/industrial-scanner |
 | **Shodan ICS filters** | ICS device search | https://www.shodan.io/search?query=port%3A502 |
 | **Censys ICS** | ICS device search | https://search.censys.io/search?resource=hosts&q=tags%3A%22ics%22 |
 | **Claroty** | OT security (vendor) | https://claroty.com |
@@ -2225,7 +2225,7 @@ FACT-CHECK REPORT
 | Atlos | https://www.atlos.org | Collaborative investigation |
 | Auto-Archiver (Bellingcat) | https://github.com/bellingcat/auto-archiver | Automatic archiving |
 | 4CAT | https://github.com/digitalmethodsinitiative/4cat | Social data analysis |
-| Pinpoint (Google Journalist Studio) | https://journaliststudio.google.com/pinpoint/ | Document analysis |
+| Pinpoint (Google Journalist Studio) | https://journaliststudio.google.com/pinpoint/collections | Document analysis |
 
 ### 45.7 Common Errors in OSINT Deliverables
 
@@ -2274,7 +2274,7 @@ Internet penetration ~93% of ~335M (Pew/ITU). Google (~88% market share), Bing, 
 | SEC EDGAR | https://www.sec.gov/edgar | Corporate filings (10-K, 10-Q, 13D, S-1) | ⚠️ 403 bot-block, live in browser |
 | PACER | https://pacer.uscourts.gov | Federal court records | ✅ 200 |
 | OFAC SDN search | https://sanctionssearch.ofac.treas.gov | Sanctions / PEP screening | ✅ 200 |
-| Data.gov | https://www.data.gov | Federal open data portal | ✅ 200 |
+| Data.gov | https://data.gov/ | Federal open data portal | ✅ 200 |
 | FOIA.gov | https://www.foia.gov | FOIA portal & requester info | ✅ 200 |
 | Federal Register | https://www.federalregister.gov | Presidential docs, rules, notices | ✅ 200 |
 | USCourts.gov | https://www.uscourts.gov | Federal case statistics & finder | ✅ 200 |
@@ -2335,7 +2335,7 @@ Brazil had 187.9 million internet users at the start of 2024 (86.6% penetration)
 |---|---|---|
 | Receita Federal — CNPJ | https://www.gov.br/receitafederal/pt-br/assuntos/cadastros-e-registros-especiais/cnpj | Business registry lookup |
 | CNPJ Comprovante | https://solucoes.receita.fazenda.gov.br/servicos/cnpjreva/cnpjreva_solicitacao.asp | Registration/situation certificate |
-| Diário Oficial da União (DOU) | https://in.gov.br/servicos/diario-oficial-da-uniao | Federal official gazette |
+| Diário Oficial da União (DOU) | https://www.in.gov.br/servicos/diario-oficial-da-uniao | Federal official gazette |
 | Imprensa Nacional | https://www.gov.br/imprensanacional/pt-br | Print house & gazette archive |
 | Portal de Compras (Comprasnet) | https://www.gov.br/compras/pt-br | Federal procurement contracts |
 | Portal da Transparência | https://portaldatransparencia.gov.br/ | CEIS (sanctioned companies), public spending |
@@ -2358,7 +2358,7 @@ Brazil had 187.9 million internet users at the start of 2024 (86.6% penetration)
 - **OSINT Brasil** blog (https://osintbrasil.blogspot.com) — practitioner write-ups.
 
 #### Legal Considerations
-- **Data protection:** **LGPD** — *Lei Geral de Proteção de Dados*, Law 13.709/2018, in force since 18 Sep 2020. Enforced by ANPD (https://www.gov.br/anpd).
+- **Data protection:** **LGPD** — *Lei Geral de Proteção de Dados*, Law 13.709/2018, in force since 18 Sep 2020. Enforced by ANPD (https://www.gov.br/anpd/pt-br).
 - **Access to information:** *Lei de Acesso à Informação* (LAI), Law 12.527/2011 — every citizen can request government records; FalaBR (https://falabr.cgu.gov.br) is the central portal.
 - **SLAPP risk:** No dedicated anti-SLAPP statute; journalists face criminal defamation suits under the *Código Penal* (arts. 138–145).
 - **Internet regulation:** *Marco Civil da Internet* (Law 12.965/2014) governs intermediary liability and data retention.
@@ -2386,7 +2386,7 @@ Mexico has ~96 million internet users (~75% penetration per DataReportal *Digita
 | Source | URL | Function |
 |---|---|---|
 | SAT (Servicio de Administración Tributaria) | https://www.sat.gob.mx | Tax authority, RFC lookup, e.factura |
-| DOF (Diario Oficial de la Federación) | https://www.dof.gob.mx | Federal official gazette |
+| DOF (Diario Oficial de la Federación) | https://dof.gob.mx/ | Federal official gazette |
 | INEGI | https://www.inegi.org.mx | DENUE business directory, census, statistics |
 | Compranet | https://www.gob.mx/compranet | Federal public procurement |
 | Plataforma Nacional de Transparencia | https://www.plataformadetransparencia.org.mx | Transparency / FOIA portal |
@@ -2438,7 +2438,7 @@ Argentina has ~37 million internet users (~83% penetration per DataReportal *Dig
 | AFIP / ARCA | https://www.afip.gob.ar | Tax authority, CUIT lookup |
 | IGJ (Inspección General de Justicia) | https://www.argentina.gob.ar/justicia/igj | National corporate registry |
 | INDEC | https://www.indec.gob.ar | National statistics |
-| Datos Jus.Gob.Ar | https://www.datos.jus.gob.ar | Justice open data |
+| Datos Jus.Gob.Ar | https://datos.jus.gob.ar/ | Justice open data |
 | Padrón Electoral | https://www.padron.gob.ar | Electoral roll lookup |
 
 #### Local Sources & Press
@@ -2482,7 +2482,7 @@ Canada has ~36 million internet users (~94% penetration). Google dominates searc
 | Source | URL | Function |
 |---|---|---|
 | Corporations Canada | https://ised-isde.canada.ca/cc/lgcy/ | Federal corporate registry |
-| Industry Canada Open Data | https://open.canada.ca | Federal open data portal |
+| Industry Canada Open Data | https://open.canada.ca/en | Federal open data portal |
 | Canada Gazette | https://gazette.gc.ca/accueil-home-eng.html | Official gazette |
 | CASL Registry | https://crtc.gc.ca/eng/internet/anti.htm | Anti-spam compliance |
 | NSICOP reports | https://www.ourcommons.ca/committees/en/NSICOP | National security oversight reports |
@@ -2538,7 +2538,7 @@ Internet penetration ~98% (Ofcom 2024); 5G nationwide; gigabit-fibre rollout ~80
 |---|---|---|---|
 | Companies House | https://find-and-update.company-information.service.gov.uk | UK companies registry (free, full, historical) | ✅ 200 |
 | The Gazette | https://www.thegazette.co.uk | UK official public record | ✅ 200 |
-| HM Land Registry | https://www.gov.uk/government/organisations/hm-land-registry | Property ownership | ✅ 200 |
+| HM Land Registry | https://www.gov.uk/government/organisations/land-registry | Property ownership | ✅ 200 |
 | data.gov.uk | https://www.data.gov.uk | UK open data portal | ✅ 200 |
 | UK Parliament | https://parliament.uk | Hansard, committee reports | ✅ 200 |
 | National Archives | https://www.nationalarchives.gov.uk | Historical records | ✅ 200 |
@@ -2651,7 +2651,7 @@ Internet penetration ~85% (ARCEP 2024). Google dominates search; Qwant is the Fr
 | Pappers | https://www.pappers.fr | Free corporate data aggregator | ⚠️ 403, live in browser |
 | data.gouv.fr | https://www.data.gouv.fr | French open data portal | ✅ 200 |
 | Légifrance | https://www.legifrance.gouv.fr | Official legal gazette | ✅ 200 |
-| INSEE | https://www.insee.fr | National statistics | ✅ 200 |
+| INSEE | https://www.insee.fr/fr/accueil | National statistics | ✅ 200 |
 | BODACC | https://www.bodacc.fr | Bulletin officiel des annonces civiles et commerciales | ✅ 200 |
 
 #### Local Sources & Press
@@ -2690,7 +2690,7 @@ Internet penetration ~93% (ONTSI 2024). Google dominates search. WhatsApp is the
 #### Intelligence Agency & OSINT Tradecraft
 - **National intelligence agency:** Centro Nacional de Inteligencia (**CNI**) — https://www.cni.es/en ✅
 - **Defence intelligence centre:** Centro de Inteligencia de las Fuerzas Armadas (**CIFAS**).
-- **OSINT unit / tradecraft:** CNI acknowledges OSINT as part of its collection disciplines. The public *Ley 11/1995* (https://www.boe.es/buscar/act.php?id=BOE-A-1995-22306) regulates intelligence activity including OSINT.
+- **OSINT unit / tradecraft:** CNI acknowledges OSINT as part of its collection disciplines. The public *Ley 11/1995* (https://www.boe.es/buscar/doc.php?id=BOE-A-1995-22306) regulates intelligence activity including OSINT.
 - **Publicly verifiable tradecraft points:**
   - **CCN-CERT** (Centro Criptológico Nacional) — https://www.ccn-cert.cni.es/en/ — public cybersecurity incidents and threat reports based on OSINT.
   - **INCIBE** (Instituto Nacional de Ciberseguridad) — https://www.incibe.es — public threat intel.
@@ -2705,7 +2705,7 @@ Internet penetration ~93% (ONTSI 2024). Google dominates search. WhatsApp is the
 | datos.gob.es | https://datos.gob.es/en | Spanish open data portal | ✅ 200 |
 | Registro Mercantil Central | https://www.registradores.org | Central commercial registry | ✅ 200 |
 | AEPD | https://www.aepd.es | Data protection authority | ✅ 200 |
-| Congress of Deputies | https://www.congreso.es | Parliamentary records | ✅ 200 |
+| Congress of Deputies | https://www.congreso.es/es/ | Parliamentary records | ✅ 200 |
 
 #### Local Sources & Press
 - **Quality press:** El País, El Mundo, La Vanguardia, ABC, La Razón, El Confidencial, El Diario.
@@ -2744,7 +2744,7 @@ Internet penetration ~87% (AGCOM 2024). Google dominates search. WhatsApp is the
 - **OSINT unit / tradecraft:** AISE and AISI acknowledge OSINT collection. The annual *Relazione al Parlamento* (https://www.sicurezzanazionale.gov.it/pubblicazioni/relazione-annuale-al-parlamento) is public and references OSINT analysis.
 - **Publicly verifiable tradecraft points:**
   - **Legge 124/2007** (Intelligence reform) — https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2007-08-03;124 — regulates intelligence activity.
-  - **ACN** (Agenzia per la Cybersicurezza Nazionale) — https://www.acn.gov.it — public cybersecurity agency with OSINT-based threat reports.
+  - **ACN** (Agenzia per la Cybersicurezza Nazionale) — https://www.acn.gov.it/portale/home — public cybersecurity agency with OSINT-based threat reports.
 
 #### Government Sources (Verified URLs)
 
@@ -2787,7 +2787,7 @@ Internet penetration ~87% (AGCOM 2024). Google dominates search. WhatsApp is the
 Internet penetration ~88% (GUS 2024). Google dominates search; presearch.com has small share. WhatsApp and Messenger dominate messaging; Signal is growing among journalists and activists. X, LinkedIn, Facebook are the main social platforms. Poland has a strong cybersecurity and OSINT community (CyberSec community, NASK, Sekurak).
 
 #### Intelligence Agency & OSINT Tradecraft
-- **External intelligence agency:** Agencja Wywiadu (**AW**) — https://www.aw.gov.pl
+- **External intelligence agency:** Agencja Wywiadu (**AW**) — https://aw.gov.pl/
 - **Internal intelligence agency:** Agencja Bezpieczeństwa Wewnętrznego (**ABW**) — https://www.abw.gov.pl
 - **Military intelligence:** Służba Wywiadu Wojskowego (**SWW**) and Służba Kontrwywiadu Wojskowego (**SKW**).
 - **OSINT unit / tradecraft:** AW and ABW acknowledge OSINT collection. The annual *Raport o stanie bezpieczeństwa* (https://www.bbn.gov.pl) references OSINT analysis.
@@ -2803,7 +2803,7 @@ Internet penetration ~88% (GUS 2024). Google dominates search; presearch.com has
 | eKRS (Krajowy Rejestr Sądowy) | https://prs.ms.gov.pl/krs | National court registry | ✅ 200 |
 | Biznes.gov.pl | https://biznes.gov.pl/en/wyszukiwarka-firm | Business search | ✅ 200 |
 | dane.gov.pl | https://dane.gov.pl/en/dataset | Open data portal | ✅ 200 |
-| Dziennik Ustaw | https://www.dziennikustaw.gov.pl | Official journal of laws | ✅ 200 |
+| Dziennik Ustaw | https://www.dziennikustaw.gov.pl/DU | Official journal of laws | ✅ 200 |
 | UODO | https://uodo.gov.pl/en | Data protection authority | ✅ 200 |
 | Sejm | https://www.sejm.gov.pl | Parliamentary records | ✅ 200 |
 
@@ -2856,7 +2856,7 @@ Internet penetration ~88% (RUNet 2024). Yandex dominates search (~65% market sha
 
 | Source | URL | Function | Status |
 |---|---|---|---|
-| ФНС (Federal Tax Service) | https://www.nalog.gov.ru | Federal Tax Service | ✅ 200 |
+| ФНС (Federal Tax Service) | https://www.nalog.gov.ru/rn77/ | Federal Tax Service | ✅ 200 |
 | ЕГРЮЛ (Unified State Register of Legal Entities) | https://egrul.nalog.ru | Russian business registry | ⚠️ 307 redirect |
 | Pravo.gov.ru | https://publication.pravo.gov.ru | Official legal portal | ⚠️ Timeout |
 | Rosstat | https://www.rosstat.gov.ru | Federal statistics | ✅ 200 |
@@ -2964,7 +2964,7 @@ Internet penetration ~73% (1.05 billion users, CNNIC 2024). The Great Firewall b
 | creditchina.gov.cn | http://www.creditchina.gov.cn | Credit information portal | ⚠️ 412 |
 | gov.cn | https://www.gov.cn | Central government portal | ✅ 200 |
 | Shanghai Stock Exchange | https://www.sse.com.cn | Stock exchange filings | ⚠️ Timeout |
-| Shenzhen Stock Exchange | https://www.szse.cn | Stock exchange filings | ⚠️ Timeout |
+| Shenzhen Stock Exchange | https://www.szse.cn/index/index.html | Stock exchange filings | ⚠️ Timeout |
 | China Court | https://www.chinacourt.cn/index.shtml | Court judgments (limited) | ✅ 200 |
 
 **Note:** Most Chinese government portals are slow or block foreign IPs. Use China-based VPN (legality varies) or third-party commercial aggregators like Sayari, Sayari Graph, or ChinаFAQs.
@@ -3573,7 +3573,7 @@ Internet penetration ~91% (ABS 2024). Google dominates search. WhatsApp, iMessag
 | M-Trends 2025 PDF | https://services.google.com/fh/files/misc/m-trends-2025-en.pdf |
 | APT groups catalogue | https://cloud.google.com/security/resources/insights/apt-groups |
 | GTI documentation portal | https://gtidocs.virustotal.com/ |
-| VirusTotal (free) | https://www.virustotal.com/ |
+| VirusTotal (free) | https://www.virustotal.com/gui/ |
 | Mandiant GitHub (open-source tools) | https://github.com/mandiant |
 
 #### Microsoft Threat Intelligence (MSTIC)
@@ -3669,7 +3669,7 @@ Internet penetration ~91% (ABS 2024). Google dominates search. WhatsApp, iMessag
 
 1. **Stuxnet (2010)** — analysis of the first cyber-physical weapon. https://securelist.com/stuxnet-zero-victims/67483/
 2. **Flame (2012)** — discovery of a sophisticated espionage toolkit. https://securelist.com/the-flame-questions-and-answers/34344/
-3. **Gauss (2012)** — discovery of nation-state banking malware. https://securelist.com/gauss-nation-state-cyber-espionage-banking-trojan/36620/
+3. **Gauss (2012)** — discovery of nation-state banking malware. https://securelist.com/gauss-abnormal-distribution/36620/
 4. **Equation Group (2015)** — Kaspersky technical investigation report documenting the most sophisticated APT group yet discovered. https://securelist.com/investigation-report-for-the-september-2014-equation-malware-detection-incident-in-the-us/83210/
 5. **Securelist RE workshop** — public training materials.
 
@@ -3692,7 +3692,7 @@ Internet penetration ~91% (ABS 2024). Google dominates search. WhatsApp, iMessag
 
 - **US bans (2017 + 2024):** DHS banned Kaspersky products from US federal networks in 2017 (BND 2017-138). BIS (Bureau of Industry and Security) extended the ban to all US consumer and commercial sales in 2024. URL: https://en.wikipedia.org/wiki/Kaspersky_Lab.
 - **Kaspersky's denial:** Company has consistently denied improper ties to Russian intelligence.
-- **Global Transparency Initiative (GTI):** Kaspersky launched the GTI in 2018 to address trust concerns: moved data processing to Zurich (2018), opened Transparency Centers in multiple countries (https://gti.kaspersky.com). URL: https://www.kaspersky.com/transparency-center
+- **Global Transparency Initiative (GTI):** Kaspersky launched the GTI in 2018 to address trust concerns: moved data processing to Zurich (2018), opened Transparency Centers in multiple countries (https://gti.kaspersky.com/en). URL: https://www.kaspersky.com/transparency-center
 - **Bias check:** Despite governance concerns, Kaspersky's *technical* research quality is widely respected. Mandiant, CrowdStrike and other Western vendors continue to cite Kaspersky research in their own publications. The technical research and the governance/jurisdiction risk are separate issues — investigators should evaluate the technical content on its merits while being aware of the geopolitical context.
 
 **Useful public resources:**
@@ -3701,7 +3701,7 @@ Internet penetration ~91% (ABS 2024). Google dominates search. WhatsApp, iMessag
 |---|---|
 | Securelist (Kaspersky blog) | https://securelist.com |
 | Kaspersky threat intelligence | https://www.kaspersky.com/enterprise-security/threat-intelligence |
-| Kaspersky GTI | https://gti.kaspersky.com |
+| Kaspersky GTI | https://gti.kaspersky.com/en |
 | Kaspersky GitHub (open-source tools) | https://github.com/kaspersky |
 
 ### 47.3 Cross-Vendor Comparison
