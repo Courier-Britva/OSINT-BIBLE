@@ -1,6 +1,7 @@
 ﻿# 🕵️‍♂️ OSINT Bible 2026
 > Compilation, procedures, tools and ethics for open source research
-[![Link health](https://img.shields.io/badge/links-752%2F1048%20ok-brightgreen)](audit/latest.md)
+[![Link health](https://img.shields.io/badge/links-754%2F1048%20ok-brightgreen)](audit/latest.md)
+[Command-line utilities](scripts/README.md) · [Link audit details](audit/latest.md)
 
 ## ⚠️ Ethical Disclaimer
 
@@ -327,7 +328,7 @@ graph TD
 ### 5.4 Twitter/X
 1. **TweetDeck** - Link: [TweetDeck](https://tweetdeck.twitter.com/) - Description: Offers a more convenient Twitter experience by allowing you to view multiple timelines in one easy interface.
 2. **FollowerWonk** - Link: [FollowerWonk](https://followerwonk.com/bio) - Description: Helps you find Twitter accounts using bio and provides many other useful features.
-3. **Twitter Advanced Search** - Link: [Twitter Advanced Search](https://twitter.com/search-advanced) - Description: Allows you to search on Twitter using filters for better search results.
+3. **Twitter Advanced Search** - Retired endpoint; use the native search tools at [X](https://x.com/) and verify availability in a browser.
 4. **memory.lol** - Link: [memory.lol](https://memory.lol/app/) - Description: a tiny web service that provides historical information about twitter users.
 5. **SocialData API** - Link: [SocialData API](https://socialdata.tools/) - Description: an unofficial Twitter API alternative that allows scraping historical tweets, user profiles, lists and Twitter spaces without using Twitter's API.
 6. **Social Bearing** - Link: [Social Bearing](https://socialbearing.com/) - Description: Insights & analytics for tweets & timelines.
@@ -434,13 +435,13 @@ graph TD
 go install github.com/trufflesecurity/trufflehog/v3@latest
 
 # Scan repo with full history:
-trufflehog git https://github.com/ORGNAME/repo.git --only-verified
+trufflehog git <REPOSITORY_URL> --only-verified
 
 # Scan organisation:
 trufflehog github --org=ORGNAME --only-verified
 
 # JSON output:
-trufflehog git https://github.com/ORGNAME/repo.git --json --only-verified > findings.json
+trufflehog git <REPOSITORY_URL> --json --only-verified > findings.json
 ```
 
 The `--only-verified` flag filters only secrets confirmed active. Reduces false positives.
@@ -2288,7 +2289,7 @@ FACT-CHECK REPORT
 
 ## 46. Regional OSINT
 
-> Each country below is in a collapsible block — click to expand. Country selection criteria: digital footprint, OSINT practitioner community, geopolitical relevance, and verifiable public sources. **All URLs were verified on 2026-07-19.** Status legend: ✅ 200 OK · ⚠️ 403/401 (bot-blocked at edge, live in browser) · ⚠️ Timeout (slow gov site, works with patience).
+> Each country below is in a collapsible block — click to expand. Country selection criteria: digital footprint, OSINT practitioner community, geopolitical relevance, and verifiable public sources. **Country URLs were last reviewed on 2026-09-25.** Status legend: ✅ 200 OK · ⚠️ 403/401 (bot-blocked at edge, live in browser) · ⚠️ Timeout (slow gov site, works with patience).
 
 ### 46.1 Americas
 

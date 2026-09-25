@@ -166,7 +166,7 @@ def main(argv=None):
         for row in pool.map(lambda u: classify(u, args.method), targets):
             rows.append(row)
     for row in rows:
-        row.append(urls.get(row[0], ""))
+        row.insert(4, urls.get(row[0], ""))
 
     counts = {}
     for row in rows:
@@ -187,7 +187,7 @@ def main(argv=None):
         os.makedirs(directory, exist_ok=True)
     export = [r for r in rows if args.all or r[1] != "OK"]
     with open(args.output, "w", newline="", encoding="utf-8") as fh:
-        writer = csv.writer(fh)
+        writer = csv.writer(fh, lineterminator="\n")
         writer.writerow(FIELDS)
         writer.writerows(export)
     print(f"CSV written: {args.output}  ({len(export)} rows)")
