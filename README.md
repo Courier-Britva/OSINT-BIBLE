@@ -1,5 +1,6 @@
 ﻿# 🕵️‍♂️ OSINT Bible 2026
 > Compilation, procedures, tools and ethics for open source research
+[![Link health](https://img.shields.io/badge/links-752%2F1048%20ok-brightgreen)](audit/latest.md)
 
 ## ⚠️ Ethical Disclaimer
 
