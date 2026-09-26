@@ -1,0 +1,730 @@
+url,status,http,final_url,source_line,note
+https://img.shields.io/badge/links-754%2F1048%20ok-brightgreen,OK,200,https://img.shields.io/badge/links-754%2F1048%20ok-brightgreen,3,
+https://github.com/frangelbarrera/osint-agent-skills,OK,200,https://github.com/frangelbarrera/osint-agent-skills,34,
+https://github.com/frangelbarrera/Abster-Intelligence,OK,200,https://github.com/frangelbarrera/Abster-Intelligence,35,
+https://github.com/frangelbarrera/agentic-harness,OK,200,https://github.com/frangelbarrera/agentic-harness,36,
+https://github.com/soxoj/maigret,OK,200,https://github.com/soxoj/maigret,61,
+https://haveibeenpwned.com,OK,200,https://haveibeenpwned.com/,62,
+https://www.infobel.com,BLOCKED,403,https://www.infobel.com/,63,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/snooppr/snoop,OK,200,https://github.com/snooppr/snoop,64,
+https://exiftool.org,OK,200,https://exiftool.org/,65,
+https://github.com/owasp-amass/amass,OK,200,https://github.com/owasp-amass/amass,66,
+https://shodan.io,BLOCKED,403,https://www.shodan.io/,67,"WAF, geo-restriction or login wall: check in a browser"
+https://live.blockcypher.com,BLOCKED,403,https://live.blockcypher.com/,68,"WAF, geo-restriction or login wall: check in a browser"
+https://duckduckgo.com/bang,REDIRECT,200,https://duckduckgo.com/bangs,111,update to the canonical URL
+https://yandex.com,OK,200,https://yandex.com/,112,
+https://baidu.com,REDIRECT,200,https://www.baidu.com/,113,update to the canonical URL
+https://startpage.com,REDIRECT,200,https://www.startpage.com/sp/captcha-block?bc=US&bi=Amazon.com&be=6f4ce743edf12e083f5769ce5aa05148&bds_t=1790424688T29fa5f2bed64b461daf72535574e268c0e245aecafc36993ff1be6be37284cd4&bds_s=060933a0a4154a56a75fe399a61c901d&language=english&lui=english&t=device&query=&cat=web&sc=pb8SDxdwDJbEhNcb8QyN2yE65DA4N8W0iJVBYmEBEvHekvy9PlhLWiVEq1IFBynNKCrG7DIxoO2vtrFqr3&cmd=gen_page,114,update to the canonical URL
+https://censys.com/,OK,200,https://censys.com/,116,
+https://fofa.info,OK,200,https://fofa.info/,117,
+https://binaryedge.io,BLOCKED,403,https://help.coalitioninc.com/hc/en-us/articles/34383910057371-BinaryEdge-Transition-FAQ,118,"WAF, geo-restriction or login wall: check in a browser"
+https://hunter.io,OK,200,https://hunter.io/,119,
+https://publicwww.com,OK,200,https://publicwww.com/,120,
+https://searchcode.com,OK,200,https://searchcode.com/,121,
+https://www.similarsites.com,OK,200,https://www.similarsites.com/,122,
+https://netlas.io,OK,200,https://netlas.io/,123,
+https://www.criminalip.io,OK,200,https://www.criminalip.io/,124,
+https://www.nerdydata.com,OK,200,https://www.nerdydata.com/,125,
+https://www.greynoise.io,OK,200,https://www.greynoise.io/,126,
+https://analyze.intezer.com,OK,200,https://analyze.intezer.com/,127,
+https://opentip.kaspersky.com,OK,200,https://opentip.kaspersky.com/,128,
+https://virustotal.com,REDIRECT,200,https://www.virustotal.com/gui/,129,update to the canonical URL
+https://otx.alienvault.com,OK,200,https://otx.alienvault.com/,130,
+https://www.exploit-db.com,OK,200,https://www.exploit-db.com/,131,
+https://bazaar.abuse.ch,OK,200,https://bazaar.abuse.ch/,132,
+https://www.malwarepatrol.net,OK,200,https://www.malwarepatrol.net/,133,
+https://www.phishtank.com,OK,200,https://www.phishtank.com/,134,
+https://urlhaus.abuse.ch,OK,200,https://urlhaus.abuse.ch/,135,
+https://yaraify.abuse.ch,OK,200,https://yaraify.abuse.ch/,136,
+https://pulsedive.com,OK,200,https://pulsedive.com/,137,
+https://threatfox.abuse.ch,OK,200,https://threatfox.abuse.ch/,138,
+https://breachdirectory.org,BLOCKED,403,https://breachdirectory.org/,139,"WAF, geo-restriction or login wall: check in a browser"
+https://dnsviz.net,OK,200,https://dnsviz.net/,141,
+https://dnsdumpster.com,BLOCKED,403,https://dnsdumpster.com/,142,"WAF, geo-restriction or login wall: check in a browser"
+https://spyonweb.com,NO_RESPONSE,,,143,TLS error
+https://github.com/Owez/yark,OK,200,https://github.com/Owez/yark,144,
+https://covertactionmagazine.com,OK,200,https://covertactionmagazine.com/,145,
+https://www.trellix.com/en-us/about/newsroom/stories/research.html,NO_RESPONSE,,,146,ReadTimeout
+https://research.checkpoint.com,OK,200,https://research.checkpoint.com/,147,
+https://www.wikistrat.com/blog,OK,200,https://www.wikistrat.com/blog,148,
+https://polyswarm.network,OK,200,https://polyswarm.network/,149,
+https://hackerone.com/hacktivity,REDIRECT,200,https://hackerone.com/hacktivity/overview,150,update to the canonical URL
+https://wikileaks.org,OK,200,https://wikileaks.org/,151,
+https://talosintelligence.com/vulnerability_reports,OK,200,https://talosintelligence.com/vulnerability_reports,152,
+https://malapi.io,OK,200,https://malapi.io/,153,
+https://usersearch.org,OK,200,https://usersearch.org/,154,
+https://securelist.com,OK,200,https://securelist.com/,155,
+https://www.splcenter.org/hate-map,OK,200,https://www.splcenter.org/hate-map/,156,
+https://icsr.info,BLOCKED,403,https://icsr.info/,157,"WAF, geo-restriction or login wall: check in a browser"
+https://www.militantwire.com,OK,200,https://www.militantwire.com/,158,
+https://www.start.umd.edu/publications,OK,200,https://www.start.umd.edu/publications,159,
+https://www.splcenter.org/resources,OK,200,https://www.splcenter.org/resources/,160,
+https://trackingterrorism.org,BLOCKED,403,https://trackingterrorism.org/,161,"WAF, geo-restriction or login wall: check in a browser"
+https://mappingmilitants.org/,OK,200,https://mappingmilitants.org/,162,
+https://news.usni.org,OK,200,https://news.usni.org/,163,
+https://www.iir.cz/en,NO_RESPONSE,,,164,TLS error
+https://www.janes.com,OK,200,https://www.janes.com/,165,
+https://tass.com,OK,200,https://tass.com/,166,
+https://sputnikglobe.com,OK,200,https://sputnikglobe.com/,167,
+https://www.pakpips.com,OK,200,https://www.pakpips.com/,168,
+https://www.picss.net,OK,200,https://www.picss.net/,169,
+https://www.reuters.com,BLOCKED,401,https://www.reuters.com/,170,"WAF, geo-restriction or login wall: check in a browser"
+https://rt.com,REDIRECT,200,https://www.rt.com/,171,update to the canonical URL
+https://internetactivism.org,OK,200,https://internetactivism.org/,172,
+https://iiss.org,REDIRECT,200,https://www.iiss.org/,173,update to the canonical URL
+https://cfr.org/newsletters,REDIRECT,200,https://link.cfr.org/join/66n/signup&hash=2d4c5929e9e04cc42f5cd375fb8dcfb1,174,update to the canonical URL
+https://sci-hub.ru,OK,200,https://sci-hub.ru/,175,
+https://www.researchhub.com,OK,200,https://www.researchhub.com/,176,
+https://www.idcrawl.com,OK,202,https://www.idcrawl.com/,177,
+https://osint.industries,REDIRECT,200,https://www.osint.industries/,178,update to the canonical URL
+https://espysys.com/,OK,200,https://espysys.com/,179,
+https://sunders.uber.space,OK,200,https://sunders.uber.space/,180,
+https://deepinfo.com,REDIRECT,200,https://www.deepinfo.com/,181,update to the canonical URL
+https://getsession.org,OK,200,https://getsession.org/,182,
+https://consortiumnews.com,OK,200,https://consortiumnews.com/,183,
+https://tuta.com/,OK,200,https://tuta.com/,184,
+https://cpj.org,OK,200,https://cpj.org/,185,
+https://www.securityweek.com,OK,200,https://www.securityweek.com/,186,
+https://networkcontagion.us,BLOCKED,403,https://networkcontagion.us/,187,"WAF, geo-restriction or login wall: check in a browser"
+https://geopoliticaleconomy.com,OK,200,https://geopoliticaleconomy.com/,188,
+https://thegrayzone.com,OK,200,https://thegrayzone.com/,189,
+https://www.flightaware.com,OK,200,https://www.flightaware.com/,190,
+https://www.flightradar24.com,BLOCKED,403,https://www.flightradar24.com/,191,"WAF, geo-restriction or login wall: check in a browser"
+https://www.marinetraffic.com,BLOCKED,403,https://www.marinetraffic.com/,192,"WAF, geo-restriction or login wall: check in a browser"
+https://www.vesselfinder.com,OK,200,https://www.vesselfinder.com/,193,
+https://newspaperarchive.com,BLOCKED,403,https://newspaperarchive.com/,194,"WAF, geo-restriction or login wall: check in a browser"
+https://indianexpress.com,OK,200,https://indianexpress.com/,195,
+https://www.dailyexcelsior.com/,OK,200,https://www.dailyexcelsior.com/,196,
+https://www.dnaindia.com,BLOCKED,403,https://www.dnaindia.com/,197,"WAF, geo-restriction or login wall: check in a browser"
+https://www.greaterkashmir.com,OK,200,https://www.greaterkashmir.com/,198,
+https://www.nagalandpost.com,REDIRECT,200,https://nagalandpost.com/,199,update to the canonical URL
+https://www.rferl.org,OK,200,https://www.rferl.org/,200,
+https://www.akto.io,OK,200,https://www.akto.io/,201,
+https://generated.photos,OK,200,https://generated.photos/,202,
+https://hdrobots.com,OK,200,https://hdrobots.com/,203,
+https://www.channel4.com/news,OK,200,https://www.channel4.com/news/,204,
+https://threatmon.io/reports,OK,200,https://threatmon.io/reports/,205,
+https://data.gov.il/,REDIRECT,200,https://data.gov.il/he,206,update to the canonical URL
+https://elevenlabs.io/dubbing,REDIRECT,200,https://elevenlabs.io/dubbing-studio,207,update to the canonical URL
+https://next.obudget.org/?lang=en,OK,200,https://next.obudget.org/?lang=en,208,
+https://www.shipspotting.com,BLOCKED,403,https://www.shipspotting.com/,209,"WAF, geo-restriction or login wall: check in a browser"
+https://www.broadcastify.com,OK,200,https://www.broadcastify.com/,210,
+https://www.opencellid.org,OK,200,https://www.opencellid.org/,211,
+https://aviationstack.com,OK,200,https://aviationstack.com/,212,
+https://www.documentcloud.org/documents/,BLOCKED,403,https://www.documentcloud.org/documents/,213,"WAF, geo-restriction or login wall: check in a browser"
+https://idrw.org,OK,200,https://idrw.org/,214,
+https://exchange.xforce.ibmcloud.com,OK,200,https://exchange.xforce.ibmcloud.com/,215,
+https://www.scumware.org,OK,200,https://www.scumware.org/,216,
+https://nagix.github.io/ukraine-livecams,OK,200,https://nagix.github.io/ukraine-livecams/,217,
+http://www.the-webcam-network.com,OK,200,http://www.the-webcam-network.com/,218,
+https://www.opentopia.com/,OK,200,https://www.opentopia.com/,219,
+https://www.transparency.org,REDIRECT,200,https://www.transparency.org/en/,220,update to the canonical URL
+https://www.occrp.org/en,OK,200,https://www.occrp.org/en,222,
+https://qsourcer.com/qdorks,OK,200,https://qsourcer.com/qdorks,223,
+https://radio.garden,OK,200,https://radio.garden/,224,
+https://osint.lolarchiver.com,BLOCKED,403,https://osint.lolarchiver.com/,225,"WAF, geo-restriction or login wall: check in a browser"
+https://breachbase.com,OK,200,https://breachbase.com/,226,
+https://worldcam.eu,OK,200,https://worldcam.eu/,227,
+https://www.webcamgalore.com,OK,200,https://www.webcamgalore.com/,228,
+https://www.wifimap.io,OK,200,https://www.wifimap.io/,229,
+https://otc.armchairresearch.org/map,OK,200,https://otc.armchairresearch.org/map,230,
+https://www.skylinewebcams.com/en/webcam,REDIRECT,200,https://www.skylinewebcams.com/en/webcam.html,231,update to the canonical URL
+https://www.pictimo.com,OK,200,https://www.pictimo.com/,232,
+https://instances.social,OK,200,https://instances.social/,233,
+https://www.camhacker.com,BLOCKED,403,https://www.camhacker.com/,234,"WAF, geo-restriction or login wall: check in a browser"
+https://labs.tib.eu/geoestimation,OK,200,https://labs.tib.eu/geoestimation/,235,
+https://picarta.ai,OK,200,https://picarta.ai/,236,
+https://www.tiny-scan.com,OK,200,https://www.tiny-scan.com/,237,
+https://www.cybersecurity-help.cz/vdb/zero-days/,OK,200,https://www.cybersecurity-help.cz/vdb/zero-days/,238,
+https://predictasearch.com,REDIRECT,200,https://www.predictasearch.com/,239,update to the canonical URL
+https://www.ventusky.com,OK,200,https://www.ventusky.com/,240,
+https://osv.dev,OK,200,https://osv.dev/,241,
+https://ess.coalitioninc.com,OK,200,https://ess.coalitioninc.com/,242,
+https://app.validin.com,REDIRECT,200,https://app.validin.com/login,243,update to the canonical URL
+https://www.circl.lu/services/passive-dns,OK,200,https://www.circl.lu/services/passive-dns/,244,
+https://github.com/gmatuz/inthewilddb,OK,200,https://github.com/gmatuz/inthewilddb,245,
+https://quake.360.net,REDIRECT,200,https://quake.360.net/quake/,246,update to the canonical URL
+https://radar.cloudflare.com/traffic,BLOCKED,403,https://radar.cloudflare.com/traffic,247,"WAF, geo-restriction or login wall: check in a browser"
+https://crisis24.garda.com,REDIRECT,200,https://www.crisis24.com/,248,update to the canonical URL
+https://arxiv.org,OK,200,https://arxiv.org/,249,
+https://github.com/thehappydinoa/awesome-censys-queries,OK,200,https://github.com/thehappydinoa/awesome-censys-queries,255,
+https://archive.org/web,REDIRECT,200,https://web.archive.org/,258,update to the canonical URL
+https://cachedview.com,OK,200,https://cachedview.com/,259,
+https://urlscan.io,OK,200,https://urlscan.io/,260,
+https://ubikron.com,REDIRECT,200,https://www.ubikron.com/,261,update to the canonical URL
+https://screenshot.guru,OK,200,https://screenshot.guru/,262,
+https://stored.website,OK,200,https://stored.website/,263,
+https://www.facebook.com/login/identify?ctx=recover,BLOCKED,400,https://www.facebook.com/login/identify?ctx=recover,278,"WAF, geo-restriction or login wall: check in a browser"
+https://www.social-searcher.com/,OK,200,https://www.social-searcher.com/,279,
+https://lookup-id.com/,OK,200,https://lookup-id.com/,280,
+https://whopostedwhat.com/,OK,200,https://whopostedwhat.com/,281,
+https://www.sowsearch.info/,OK,200,https://www.sowsearch.info/,282,
+https://intelx.io/tools,OK,200,https://intelx.io/tools,283,
+https://www.facebook.com/directory/people/,BLOCKED,400,https://www.facebook.com/directory/people/,284,"WAF, geo-restriction or login wall: check in a browser"
+https://chromewebstore.google.com/detail/dumpitblue+/igmgknoioooacbcpcfgjigbaajpelbfe,OK,200,https://chromewebstore.google.com/detail/dumpitblue+/igmgknoioooacbcpcfgjigbaajpelbfe,285,
+https://exportcomments.com/,OK,200,https://exportcomments.com/,286,
+https://khalil-shreateh.com/khalil.shtml/social_applications/facebook-applications/,OK,200,https://khalil-shreateh.com/khalil.shtml/social_applications/facebook-applications/,287,
+https://chromewebstore.google.com/detail/socialanalyzer-social-sen/efeikkcpimdfpdlmlbjdecnmkknjcfcp,REDIRECT,200,https://chromewebstore.google.com/detail/ads-library-downloader-ad/efeikkcpimdfpdlmlbjdecnmkknjcfcp,288,update to the canonical URL
+https://analyzeid.com/,OK,200,https://analyzeid.com/,289,
+https://plessas.net/facebookmatrix,OK,200,https://plessas.net/facebookmatrix,291,
+https://stalkface.com/en/,OK,200,https://stalkface.com/en/,293,
+https://searchisback.com/,OK,200,https://searchisback.com/,294,
+https://fb-search.com,REDIRECT,200,https://socialix.io/facebook-search,295,update to the canonical URL
+https://github.com/rugantio/fbcrawl,OK,200,https://github.com/rugantio/fbcrawl,296,
+https://fdown.net,BLOCKED,403,https://fdown.net/,297,"WAF, geo-restriction or login wall: check in a browser"
+https://ifttt.com/instagram,OK,200,https://ifttt.com/instagram,300,
+https://imginn.io/,OK,200,https://imginn.io/,301,
+https://github.com/instaloader/instaloader,OK,200,https://github.com/instaloader/instaloader,302,
+https://github.com/yezz123/SoIG,OK,200,https://github.com/yezz123/SoIG,303,
+https://github.com/Datalux/Osintgram,OK,200,https://github.com/Datalux/Osintgram,304,
+https://pypi.org/project/toutatis/,OK,200,https://pypi.org/project/toutatis/,305,
+https://pypi.org/project/instalooter/,OK,200,https://pypi.org/project/instalooter/,306,
+https://exportgram.net/,OK,200,https://exportgram.net/,307,
+https://inflact.com/tools/profile-analyzer/,OK,200,https://inflact.com/tools/profile-analyzer/,308,
+https://www.codeofaninja.com/tools/find-instagram-user-id/,BLOCKED,403,https://www.codeofaninja.com/tools/find-instagram-user-id/,309,"WAF, geo-restriction or login wall: check in a browser"
+https://instahunt.huntintel.io/,OK,200,https://instahunt.huntintel.io/,310,
+https://musicaldown.com,BLOCKED,403,https://musicaldown.com/,311,"WAF, geo-restriction or login wall: check in a browser"
+https://recruitin.net/,OK,200,https://recruitin.net/,314,
+https://rocketreach.co/person,OK,200,https://rocketreach.co/person,315,
+https://phantombuster.com/phantombuster,OK,200,https://phantombuster.com/phantombuster,316,
+https://linkedprospect.com/linkedin-boolean-search-tool/#tool,BLOCKED,403,https://linkedprospect.com/linkedin-boolean-search-tool/#tool,317,"WAF, geo-restriction or login wall: check in a browser"
+https://www.reversecontact.com/,OK,200,https://www.reversecontact.com/,318,
+https://cse.google.com/cse?cx=daaf18e804f81bed0,OK,200,https://cse.google.com/cse?cx=daaf18e804f81bed0,319,
+https://freepeoplesearchtool.com/#gsc.tab=0,OK,200,https://freepeoplesearchtool.com/#gsc.tab=0,320,
+https://inteltechniques.com/tools/Linkedin.html,REDIRECT,200,https://inteltechniques.com/tools/Linkedin,322,update to the canonical URL
+https://github.com/vysecurity/LinkedInt,OK,200,https://github.com/vysecurity/LinkedInt,323,
+https://github.com/jobroche/InSpy,OK,200,https://github.com/jobroche/InSpy,324,
+https://github.com/m8sec/CrossLinked,OK,200,https://github.com/m8sec/CrossLinked,325,
+https://tweetdeck.twitter.com/,REDIRECT,200,https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=https%3A%2F%2Fpro.twitter.com,329,update to the canonical URL
+https://followerwonk.com/bio,REDIRECT,200,https://followerwonk.com/search-bio.html,330,update to the canonical URL
+https://x.com/,OK,200,https://x.com/,331,
+https://memory.lol/app/,OK,200,https://memory.lol/app/,332,
+https://socialdata.tools/,OK,200,https://socialdata.tools/,333,
+https://socialbearing.com/,REDIRECT,200,https://tomelliott.com/social-media/twitter-search-analytics-tool,334,update to the canonical URL
+https://tinfoleak.com/,OK,200,https://tinfoleak.com/,335,
+https://osome.iu.edu/tools/networks/,REDIRECT,200,https://osome.iu.edu/tools/osomenet/,336,update to the canonical URL
+https://foller.me/,OK,521,https://foller.me/,337,
+https://airtable.com/appyDhNeSetZU0rIw/shrceHfvukijgln9q/tblxgilU0SzfXNEwS/viwde4ACDDOpeJ8aO?blocks=bipxY3tKD5Lx0wmEU,OK,200,https://airtable.com/appyDhNeSetZU0rIw/shrceHfvukijgln9q/tblxgilU0SzfXNEwS/viwde4ACDDOpeJ8aO?blocks=bipxY3tKD5Lx0wmEU,338,
+https://cache.digitaldigging.org/,OK,200,https://cache.digitaldigging.org/,339,
+https://www.aware-online.com/en/osint-tools/twitter-search-tool/,OK,200,https://www.aware-online.com/en/osint-tools/twitter-search-tool/,340,
+https://twittervideodownloader.com/,REDIRECT,200,https://twittervideodownloader.com/en/,341,update to the canonical URL
+https://www.twtdata.com/,BLOCKED,403,https://www.twtdata.com/,342,"WAF, geo-restriction or login wall: check in a browser"
+https://www.twitonomy.com/,OK,200,https://www.twitonomy.com/,343,
+https://tweeterid.com/,OK,200,https://tweeterid.com/,344,
+https://birdhunt.huntintel.io/,OK,200,https://birdhunt.huntintel.io/,345,
+https://github.com/twintproject/twint,OK,200,https://github.com/twintproject/twint,346,
+http://sentiment140.com,REDIRECT,200,http://www.sentiment140.com,347,update to the canonical URL
+https://xquik.com,REDIRECT,200,https://xquik.com/en,348,update to the canonical URL
+https://chromewebstore.google.com/detail/downalbum/cgjnhhjpfcdhbhlcmmjppicjmgfkppok,REDIRECT,200,https://chromewebstore.google.com/detail/empty-title/cgjnhhjpfcdhbhlcmmjppicjmgfkppok,351,update to the canonical URL
+https://www.expertsphp.com/pinterest-photo-downloader.html,REDIRECT,200,https://www.expertsphp.com/pinterest-photo-downloader/,352,update to the canonical URL
+https://pingroupie.com/,OK,200,https://pingroupie.com/,353,
+https://www.tailwindapp.com,OK,200,https://www.tailwindapp.com/,354,
+https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest,OK,200,https://addons.mozilla.org/en-US/firefox/addon/pinterest-guest/,355,
+https://f5bot.com,OK,200,https://f5bot.com/,358,
+http://kerrick.github.io/Mostly-Harmless/#features,OK,200,http://kerrick.github.io/Mostly-Harmless/#features,359,
+https://www.osintcombine.com/tools,REDIRECT,200,https://www.osintcombine.com/free-osint-tools,360,update to the canonical URL
+https://phantombuster.com/phantombuster?category=reddit,OK,200,https://phantombuster.com/phantombuster?category=reddit,361,
+https://rdddeck.com,OK,502,https://rdddeck.com/,362,
+https://chromewebstore.google.com/detail/readr-for-reddit/molhdaofohigaepljchpmfablknhabmo,REDIRECT,200,https://chromewebstore.google.com/detail/empty-title/molhdaofohigaepljchpmfablknhabmo,363,update to the canonical URL
+https://redditcommentsearch.com,OK,200,https://redditcommentsearch.com/,364,
+https://www.redditery.com/,OK,200,https://www.redditery.com/,365,
+https://github.com/EdOverflow/hacks,OK,200,https://github.com/EdOverflow/hacks,366,
+https://redditlist.com/,OK,200,https://redditlist.com/,367,
+https://www.redditp.com,OK,200,https://www.redditp.com/,368,
+https://realsrikar.github.io/reddit-search,OK,200,https://realsrikar.github.io/reddit-search/,369,
+http://reddit-stream.com,OK,200,http://reddit-stream.com/,370,
+https://chromewebstore.google.com/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb,OK,200,https://chromewebstore.google.com/detail/reddit-enhancement-suite/kbmfpngjjgdllneeigpgjifpgocmfgmb,371,
+https://atomiks.github.io/reddit-user-analyser,OK,200,https://atomiks.github.io/reddit-user-analyser/,372,
+http://reditr.com,OK,200,http://reditr.com/,373,
+https://reedditapp.com,OK,200,https://reedditapp.com/,374,
+https://www.smat-app.com/timeline,OK,200,https://www.smat-app.com/timeline,375,
+https://github.com/soxoj/socid_extractor,REDIRECT,200,https://github.com/soxoj/socid-extractor,376,update to the canonical URL
+https://nikas.praninskas.com/suggest-subreddit,OK,200,https://nikas.praninskas.com/suggest-subreddit/,377,
+http://subreddits.org,OK,200,http://subreddits.org/,378,
+http://uforio.com,OK,200,http://uforio.com/,379,
+https://github.com/JosephLai241/URS,OK,200,https://github.com/JosephLai241/URS,380,
+https://redditstuff.github.io/sna/vizit,OK,200,https://redditstuff.github.io/sna/vizit/,381,
+https://wisdomofreddit.com,OK,200,https://wisdomofreddit.com/,382,
+https://awesomelists.calvinjeng.io/,OK,200,https://awesomelists.calvinjeng.io/,385,
+https://coderstats.net,OK,200,https://coderstats.net/,386,
+https://github.com/ffffffff0x/Digital-Privacy,OK,200,https://github.com/ffffffff0x/Digital-Privacy,387,
+http://caius.github.io/github_id,OK,200,http://caius.github.io/github_id/,388,
+http://www.gharchive.org,OK,200,http://www.gharchive.org/,389,
+https://github.com/techgaun/github-dorks,OK,200,https://github.com/techgaun/github-dorks,390,
+http://githubstars.com,OK,200,http://githubstars.com/,391,
+https://mshibanami.github.io/GitHubTrendingRSS,OK,200,https://mshibanami.github.io/GitHubTrendingRSS/,392,
+https://jonnygovish.github.io/Github-username-search-engine,OK,200,https://jonnygovish.github.io/Github-username-search-engine/,393,
+https://githubnotes-47071.firebaseapp.com/#/?_k=n0bgxn,OK,200,https://githubnotes-47071.firebaseapp.com/#/?_k=n0bgxn,394,
+https://githut.info,OK,200,https://githut.info/,395,
+https://github.com/BishopFox/GitGot,OK,200,https://github.com/BishopFox/GitGot,401,
+https://github.com/hisxo/gitGraber,OK,200,https://github.com/hisxo/gitGraber,402,
+https://github.com/tillson/git-hound,OK,200,https://github.com/tillson/git-hound,403,
+https://github.com/trufflesecurity/trufflehog,OK,200,https://github.com/trufflesecurity/trufflehog,404,
+https://github.com/gitleaks/gitleaks,OK,200,https://github.com/gitleaks/gitleaks,405,
+https://github.com/hisxo/gitGraber.git,REDIRECT,200,https://github.com/hisxo/gitGraber,452,update to the canonical URL
+http://add-me-contacts.com,OK,200,http://add-me-contacts.com/,482,
+https://chattoday.com,BLOCKED,403,https://chattoday.com/,483,"WAF, geo-restriction or login wall: check in a browser"
+https://gebruikersnamen.nl/snapchat,OK,200,https://gebruikersnamen.nl/snapchat/,484,
+https://www.osintcombine.com/snapchat-multi-viewer,REDIRECT,200,https://www.osintcombine.com/free-osint-tools,485,update to the canonical URL
+https://github.com/nemec/snapchat-map-scraper,OK,200,https://github.com/nemec/snapchat-map-scraper,486,
+https://www.snap.com/en-GB/political-ads,REDIRECT,200,https://www.snap.com/political-ads?lang=en-GB,487,update to the canonical URL
+https://socialfinder.app,OK,200,https://socialfinder.app/,488,
+https://github.com/Kr0wZ/SnapIntel,OK,200,https://github.com/Kr0wZ/SnapIntel,489,
+https://addmes.io/,BLOCKED,403,https://addmes.io/,490,"WAF, geo-restriction or login wall: check in a browser"
+https://checkwa.online,OK,200,https://checkwa.online/,493,
+http://www.fakewhats.com/generator,OK,200,http://www.fakewhats.com/generator,494,
+https://github.com/zoutepopcorn/whatsfoto,OK,200,https://github.com/zoutepopcorn/whatsfoto,495,
+https://whatsapp.checkleaked.cc,OK,200,https://whatsapp.checkleaked.cc/,496,
+https://www.skypli.com,OK,200,https://www.skypli.com/,501,
+https://chatbottle.co/bots/telegram,OK,200,https://chatbottle.co/bots/telegram,504,
+https://github.com/paulpierre/informer,OK,200,https://github.com/paulpierre/informer,506,
+https://lyzem.com,OK,200,https://lyzem.com/,508,
+https://telegramchannels.me,BLOCKED,403,https://telegramchannels.me/,509,"WAF, geo-restriction or login wall: check in a browser"
+https://tlgrm.eu/channels,OK,200,https://tlgrm.eu/channels,510,
+https://xtea.io/ts_en.html,OK,200,https://xtea.io/ts_en.html,511,
+https://tdirectory.me,OK,200,https://tdirectory.me/,512,
+https://www.telegram-group.com,REDIRECT,200,https://telegram-group.com/,513,update to the canonical URL
+https://github.com/tvdstaaij/telegram-history-dump,OK,200,https://github.com/tvdstaaij/telegram-history-dump,514,
+https://github.com/Postuf/telegram-osint-lib,OK,200,https://github.com/Postuf/telegram-osint-lib,515,
+https://github.com/th3unkn0n/TeleGram-Scraper,OK,200,https://github.com/th3unkn0n/TeleGram-Scraper,516,
+https://tgram.io,OK,200,https://tgram.io/,517,
+https://tgstat.com,OK,200,https://tgstat.com/,518,
+https://tgstat.ru,BLOCKED,403,https://tgstat.ru/,519,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/husseinmuhaisen/DiscordOSINT?tab=readme-ov-file#-discord-search-syntax-,OK,200,https://github.com/husseinmuhaisen/DiscordOSINT?tab=readme-ov-file#-discord-search-syntax-,522,
+https://discord.name/,OK,200,https://discord.name/,523,
+https://dht.chylex.com/,OK,200,https://dht.chylex.com/,524,
+https://top.gg/,BLOCKED,403,https://top.gg/,525,"WAF, geo-restriction or login wall: check in a browser"
+https://discord.id/,OK,200,https://discord.id/,526,
+https://disboard.org/,BLOCKED,403,https://disboard.org/,527,"WAF, geo-restriction or login wall: check in a browser"
+https://onlyfansfinder.co/,OK,200,https://onlyfansfinder.co/,530,
+https://onlyfam.com,OK,200,https://onlyfam.com/,531,
+https://onlyfinder.com/,BLOCKED,403,https://onlyfinder.com/,532,"WAF, geo-restriction or login wall: check in a browser"
+https://onlysearch.co/,BLOCKED,429,https://onlysearch.co/,533,"WAF, geo-restriction or login wall: check in a browser"
+https://sotugas.com/,BLOCKED,403,https://sotugas.com/,534,"WAF, geo-restriction or login wall: check in a browser"
+https://fansmetrics.com/,BLOCKED,403,https://fansmetrics.com/,535,"WAF, geo-restriction or login wall: check in a browser"
+https://findr.fans/,REDIRECT,200,https://findr.fans/password,536,update to the canonical URL
+https://hubite.com/en/onlyfans-search/,BLOCKED,403,https://hubite.com/en/onlyfans-search/,537,"WAF, geo-restriction or login wall: check in a browser"
+https://similarfans.com/,OK,200,https://similarfans.com/,538,
+https://www.fansearch.com/,OK,304,https://www.fansearch.com/,539,
+https://mavekite.com/,OK,200,https://mavekite.com/,542,
+https://github.com/bellingcat/tiktok-hashtag-analysis,OK,200,https://github.com/bellingcat/tiktok-hashtag-analysis,543,
+https://ssstik.io/en-1,REDIRECT,200,https://ssstik.io/,544,update to the canonical URL
+https://exolyt.com/,OK,200,https://exolyt.com/,545,
+https://earth.google.com,REDIRECT,200,https://earth.google.com/web/,558,update to the canonical URL
+https://suncalc.org,REDIRECT,200,https://www.suncalc.org/,559,update to the canonical URL
+https://overpass-turbo.eu,OK,200,https://overpass-turbo.eu/,560,
+https://wigle.net,OK,200,https://wigle.net/,565,
+https://github.com/GONZOsint/geowifi,OK,200,https://github.com/GONZOsint/geowifi,586,
+https://browser.dataspace.copernicus.eu,OK,200,https://browser.dataspace.copernicus.eu/,589,
+https://firms.modaps.eosdis.nasa.gov,OK,200,https://firms.modaps.eosdis.nasa.gov/,590,
+https://zoom.earth,OK,200,https://zoom.earth/,591,
+https://globe.adsbexchange.com,OK,200,https://globe.adsbexchange.com/,593,
+https://flightaware.com,REDIRECT,200,https://www.flightaware.com/,594,update to the canonical URL
+https://flightaware.com/adsb/piaware,REDIRECT,200,https://www.flightaware.com/adsb/piaware/,595,update to the canonical URL
+https://www.shipspotting.com/,BLOCKED,403,https://www.shipspotting.com/,598,"WAF, geo-restriction or login wall: check in a browser"
+https://ffmpeg.org,OK,200,https://ffmpeg.org/,611,
+https://earth.google.com/web/,OK,200,https://earth.google.com/web/,616,
+https://www.suncalc.org,OK,200,https://www.suncalc.org/,619,
+https://fotoforensics.com,OK,200,https://fotoforensics.com/,639,
+https://29a.ch/photo-forensics,OK,200,https://29a.ch/photo-forensics/,640,
+https://www.sentinel-hub.com,OK,200,https://www.sentinel-hub.com/,644,
+https://github.com/yt-dlp/yt-dlp,OK,200,https://github.com/yt-dlp/yt-dlp,645,
+https://geoconfirmed.org,OK,200,https://geoconfirmed.org/,646,
+https://www.bellingcat.com/news/2022/04/04/russias-bucha-facts-versus-the-evidence/,OK,200,https://www.bellingcat.com/news/2022/04/04/russias-bucha-facts-versus-the-evidence/,662,
+https://www.nytimes.com/2022/04/04/world/europe/bucha-ukraine-bodies.html,BLOCKED,403,https://www.nytimes.com/2022/04/04/world/europe/bucha-ukraine-bodies.html,663,"WAF, geo-restriction or login wall: check in a browser"
+https://crt.sh/?q=%25.target.com&output=json,OK,200,https://crt.sh/?q=%25.target.com&output=json,671,
+https://securitytrails.com,BLOCKED,403,https://securitytrails.com/,672,"WAF, geo-restriction or login wall: check in a browser"
+https://bgp.he.net,OK,200,https://bgp.he.net/,673,
+https://nmap.online,OK,200,https://nmap.online/,675,
+https://www.subdomain.center,OK,200,https://www.subdomain.center/,676,
+https://www.subdomainradar.io,REDIRECT,200,https://subdomainradar.io/,677,update to the canonical URL
+http://dnshistory.org,BLOCKED,403,http://dnshistory.org/,678,"WAF, geo-restriction or login wall: check in a browser"
+https://www.talosintelligence.com/,OK,200,https://www.talosintelligence.com/,679,
+https://www.binarydefense.com/banlist.txt,REDIRECT,200,https://binarydefense.com/banlist.txt,680,update to the canonical URL
+https://bgpranking.circl.lu,OK,200,https://bgpranking.circl.lu/,681,
+https://intel.malwaretech.com/,BLOCKED,403,https://intel.malwaretech.com/,682,"WAF, geo-restriction or login wall: check in a browser"
+http://www.botvrij.eu/,REDIRECT,200,https://www.botvrij.eu/,683,update to the canonical URL
+https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt,BLOCKED,403,https://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt,684,"WAF, geo-restriction or login wall: check in a browser"
+https://certstream.calidog.io/,OK,200,https://certstream.calidog.io/,685,
+http://www.ccssforum.org/malware-certificates.php,OK,200,http://www.ccssforum.org/malware-certificates.php,686,
+http://cinsscore.com/#list,OK,200,http://cinsscore.com/#list,687,
+http://s3-us-west-1.amazonaws.com/umbrella-static/index.html,OK,200,http://s3-us-west-1.amazonaws.com/umbrella-static/index.html,688,
+https://cloudmersive.com/virus-api,OK,200,https://cloudmersive.com/virus-api,689,
+https://intelstack.com/,REDIRECT,200,https://www.intelstack.com/,690,update to the canonical URL
+https://app.crowdsec.net/,OK,200,https://app.crowdsec.net/,691,
+https://www.cybercure.ai/,OK,200,https://www.cybercure.ai/,692,
+https://dataplane.org/,OK,200,https://dataplane.org/,693,
+https://focsec.com,OK,200,https://focsec.com/,694,
+https://github.com/disposable-email-domains/disposable-email-domains,OK,200,https://github.com/disposable-email-domains/disposable-email-domains,695,
+http://rules.emergingthreats.net/fwrules/,OK,200,http://rules.emergingthreats.net/fwrules/,696,
+https://exonerator.torproject.org/,REDIRECT,200,https://metrics.torproject.org/exonerator.html,697,update to the canonical URL
+http://www.exploitalert.com/,REDIRECT,200,https://colatvttbdh.tv/,698,update to the canonical URL
+https://intercept.sh/threatlists/,OK,200,https://intercept.sh/threatlists/,699,
+https://feodotracker.abuse.ch/,OK,200,https://feodotracker.abuse.ch/,700,
+https://iplists.firehol.org/,OK,200,https://iplists.firehol.org/,701,
+https://fraudguard.io/,OK,200,https://fraudguard.io/,702,
+http://greynoise.io/,REDIRECT,200,https://www.greynoise.io/,703,update to the canonical URL
+https://riskdiscovery.com/honeydb/,REDIRECT,200,https://honeydb.io/,704,update to the canonical URL
+https://github.com/SupportIntelligence/Icewater,OK,200,https://github.com/SupportIntelligence/Icewater,705,
+https://labs.inquest.net,NO_RESPONSE,,,706,ConnectionError
+https://www.iblocklist.com/lists,OK,200,https://www.iblocklist.com/lists,707,
+https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt,OK,200,https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt,708,
+https://jamesbrine.com.au,BLOCKED,403,https://jamesbrine.com.au/,709,"WAF, geo-restriction or login wall: check in a browser"
+https://support.kaspersky.com/datafeeds,REDIRECT,200,https://support.kaspersky.com/us,710,update to the canonical URL
+https://malpedia.caad.fkie.fraunhofer.de/,OK,200,https://malpedia.caad.fkie.fraunhofer.de/,711,
+http://www.malshare.com/,OK,200,http://www.malshare.com/,712,
+https://www.maltiverse.com/,BLOCKED,403,https://www.maltiverse.com/,713,"WAF, geo-restriction or login wall: check in a browser"
+https://bazaar.abuse.ch/,OK,200,https://bazaar.abuse.ch/,714,
+https://www.malwarepatrol.net/,OK,200,https://www.malwarepatrol.net/,715,
+https://www.opswat.com/developers/threat-intelligence-feed,REDIRECT,200,https://www.opswat.com/products/metadefender/cloud,716,update to the canonical URL
+https://data.netlab.360.com/,NO_RESPONSE,,,717,ReadTimeout
+http://www.nothink.org,REDIRECT,200,https://www.nothink.org/,718,update to the canonical URL
+https://www.obstracts.com/,OK,200,https://www.obstracts.com/,719,
+https://openphish.com/phishing_feeds.html,OK,200,https://openphish.com/phishing_feeds.html,720,
+https://feed.seguranca-informatica.pt/index.php,BLOCKED,403,https://feed.seguranca-informatica.pt/index.php,721,"WAF, geo-restriction or login wall: check in a browser"
+https://www.phishtank.com/developer_info.php,OK,200,https://www.phishtank.com/developer_info.php,722,
+https://www.celerium.com/pickupstix,REDIRECT,200,https://www.celerium.com/,723,update to the canonical URL
+https://rstcloud.net/,REDIRECT,200,https://www.rstcloud.com/,724,update to the canonical URL
+https://github.com/securityscorecard/SSC-Threat-Intel-IoCs,OK,200,https://github.com/securityscorecard/SSC-Threat-Intel-IoCs,725,
+https://www.stixify.com/,OK,200,https://www.stixify.com/,726,
+https://github.com/Neo23x0/signature-base,OK,200,https://github.com/Neo23x0/signature-base,727,
+https://www.spamhaus.org/,OK,200,https://www.spamhaus.org/,728,
+https://spur.us,BLOCKED,429,https://spur.us/,729,"WAF, geo-restriction or login wall: check in a browser"
+https://sslbl.abuse.ch/,OK,200,https://sslbl.abuse.ch/,730,
+https://statvoo.com/dl/top-1million-sites.csv.zip,BLOCKED,403,https://statvoo.com/dl/top-1million-sites.csv.zip,731,"WAF, geo-restriction or login wall: check in a browser"
+https://strongarm.io,OK,200,https://strongarm.io/,732,
+https://www.siemrules.com,OK,200,https://www.siemrules.com/,733,
+https://threatfeeds.io,OK,200,https://threatfeeds.io/,735,
+https://threatfox.abuse.ch/,OK,200,https://threatfox.abuse.ch/,736,
+https://www.dataminr.com/blog/,BLOCKED,403,https://www.dataminr.com/blog/,737,"WAF, geo-restriction or login wall: check in a browser"
+https://developers.facebook.com/docs/threat-exchange/,BLOCKED,400,https://developers.facebook.com/docs/threat-exchange/,738,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/typedb-osi/typedb-cti,OK,200,https://github.com/typedb-osi/typedb-cti,739,
+https://exchange.xforce.ibmcloud.com/,OK,200,https://exchange.xforce.ibmcloud.com/,740,
+https://yeti-platform.io/,OK,200,https://yeti-platform.io/,741,
+https://IOCFeed.mrlooquer.com/,REDIRECT,200,https://iocfeed.mrlooquer.com/,742,update to the canonical URL
+https://github.com/Yara-Rules/rules,OK,200,https://github.com/Yara-Rules/rules,743,
+https://virusshare.com/,OK,200,https://virusshare.com/,744,
+https://whoisfreaks.com,OK,200,https://whoisfreaks.com/,752,
+https://ipgeolocation.io,OK,200,https://ipgeolocation.io/,753,
+https://ahmia.fi,OK,200,https://ahmia.fi/,767,
+https://dehashed.com,BLOCKED,403,https://dehashed.com/,770,"WAF, geo-restriction or login wall: check in a browser"
+https://tor.link,BLOCKED,403,https://tor.link/,771,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/s-rah/onionscan,OK,200,https://github.com/s-rah/onionscan,772,
+https://dark.fail,OK,200,https://dark.fail/,773,
+https://github.com/josh0xA/darkdump,OK,200,https://github.com/josh0xA/darkdump,775,
+https://torproject.org,REDIRECT,200,https://www.torproject.org/,776,update to the canonical URL
+https://crt.sh/?q=%25.{domain}&output=json,NO_RESPONSE,,,820,ReadTimeout
+https://inteltechniques.com/,OK,200,https://inteltechniques.com/,905,
+https://www.bellingcat.com/resources/,OK,200,https://www.bellingcat.com/resources/,906,
+https://bellingcat.gitbook.io/toolkit,OK,200,https://bellingcat.gitbook.io/toolkit,907,
+https://www.sans.org/reading-room/whitepapers/OSINT/,REDIRECT,200,https://www.sans.org/white-papers,908,update to the canonical URL
+https://www.sans.org/reading-room/whitepapers/forensics/,REDIRECT,200,https://www.sans.org/white-papers,909,update to the canonical URL
+https://www.sans.org/cyber-security-courses/open-source-intelligence-gathering/,REDIRECT,200,https://www.sans.org/cyber-security-courses/practical-open-source-intelligence,910,update to the canonical URL
+https://csrc.nist.gov/pubs/sp/800/150/final,OK,200,https://csrc.nist.gov/pubs/sp/800/150/final,911,
+https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024,OK,200,https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024,912,
+https://www.ncsc.gov.uk/section/keep-up-to-date/threat-reports,OK,200,https://www.ncsc.gov.uk/section/keep-up-to-date/threat-reports,913,
+https://www.interpol.int/Crimes/Cybercrime,OK,200,https://www.interpol.int/Crimes/Cybercrime,914,
+https://citizenlab.ca/publications/,REDIRECT,200,https://citizenlab.ca/publication-directory/,915,update to the canonical URL
+https://www.rand.org/topics/open-source-intelligence.html,OK,200,https://www.rand.org/topics/open-source-intelligence.html,916,
+https://www.csis.org/programs/strategic-technologies-program,OK,200,https://www.csis.org/programs/strategic-technologies-program,917,
+https://arxiv.org/list/cs.CR/recent,OK,200,https://arxiv.org/list/cs.CR/recent,918,
+https://www.first.org/resources/guides,OK,200,https://www.first.org/resources/guides/,919,
+https://attack.mitre.org/resources/,OK,200,https://attack.mitre.org/resources/,920,
+https://www.tracelabs.org/resources,BLOCKED,403,https://www.tracelabs.org/resources,921,"WAF, geo-restriction or login wall: check in a browser"
+https://www.osintdojo.com/,OK,200,https://www.osintdojo.com/,922,
+https://osintframework.com/,OK,200,https://osintframework.com/,923,
+https://github.com/jivoi/awesome-osint,OK,200,https://github.com/jivoi/awesome-osint,924,
+https://github.com/Ph055a/OSINT_Collection,OK,200,https://github.com/Ph055a/OSINT_Collection,925,
+https://www.incibe.es/incibe-cert/blog,OK,200,https://www.incibe.es/incibe-cert/blog,926,
+https://thedfirreport.com/,OK,200,https://thedfirreport.com/,927,
+https://krebsonsecurity.com/,OK,200,https://krebsonsecurity.com/,928,
+https://blog.talosintelligence.com/,OK,200,https://blog.talosintelligence.com/,929,
+https://ssd.eff.org/,OK,200,https://ssd.eff.org/,930,
+https://pwn.college/,OK,200,https://pwn.college/,931,
+https://sans.org,REDIRECT,200,https://www.sans.org/,934,update to the canonical URL
+https://twitter.com/osintdojo,REDIRECT,200,https://x.com/osintdojo,935,update to the canonical URL
+https://t.me/OSINTLatam,OK,200,https://t.me/OSINTLatam,938,
+https://discord.gg/osint-es,REDIRECT,200,https://discord.com/invite/osint-es,939,update to the canonical URL
+https://reddit.com/r/osint,BLOCKED,403,https://www.reddit.com/r/osint/,940,"WAF, geo-restriction or login wall: check in a browser"
+https://anonchatgpt.com,OK,200,https://anonchatgpt.com/,949,
+https://huggingface.co/spaces/JournalistsonHF/ai-toolkit,OK,200,https://huggingface.co/spaces/JournalistsonHF/ai-toolkit,950,
+https://www.chatpdf.com/,OK,200,https://www.chatpdf.com/,951,
+https://monica.im/,OK,200,https://monica.im/,952,
+https://www.babelstreet.com,OK,200,https://www.babelstreet.com/,953,
+https://www.fivecast.com,OK,200,https://www.fivecast.com/,954,
+https://hyperverge.co,OK,200,https://hyperverge.co/,955,
+https://shadowdragon.io,OK,200,https://shadowdragon.io/,956,
+https://www.talkwalker.com,OK,200,https://www.talkwalker.com/,957,
+https://www.dorkgpt.com,OK,200,https://www.dorkgpt.com/,958,
+https://kriztalz.sh/search-dorks,OK,200,https://kriztalz.sh/search-dorks/,959,
+https://sensity.ai,OK,200,https://sensity.ai/,960,
+https://fullfact.org,OK,200,https://fullfact.org/,961,
+https://logically.com,REDIRECT,200,https://www.logically.com/,962,update to the canonical URL
+https://github.com/frangelbarrera/Artificial-Intelligence-Universe,OK,200,https://github.com/frangelbarrera/Artificial-Intelligence-Universe,967,
+https://github.com/frangelbarrera/awesome-ai-agents,OK,200,https://github.com/frangelbarrera/awesome-ai-agents,968,
+https://github.com/frangelbarrera/Awesome-Hacking-with-AI,OK,200,https://github.com/frangelbarrera/Awesome-Hacking-with-AI,969,
+https://pimeyes.com/en,OK,200,https://pimeyes.com/en,979,
+https://osint.pimeyes.com,OK,200,https://osint.pimeyes.com/,980,
+https://facecheck.id,OK,200,https://facecheck.id/,981,
+https://github.com/megadose/holehe,OK,200,https://github.com/megadose/holehe,998,
+https://github.com/mxrch/GHunt,OK,200,https://github.com/mxrch/GHunt,999,
+https://epieos.com,BLOCKED,403,https://epieos.com/,1000,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/khast3x/h8mail,OK,200,https://github.com/khast3x/h8mail,1001,
+https://tools.emailhippo.com,BLOCKED,403,https://tools.emailhippo.com/,1002,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/sundowndev/phoneinfoga,OK,200,https://github.com/sundowndev/phoneinfoga,1009,
+https://www.truecaller.com,OK,200,https://www.truecaller.com/,1010,
+https://numverify.com,OK,200,https://numverify.com/,1012,
+https://snusbase.com,OK,200,https://snusbase.com/,1037,
+https://leakcheck.io,OK,200,https://leakcheck.io/,1038,
+https://intelx.io,OK,200,https://intelx.io/,1039,
+https://www.hudsonrock.com/threat-intelligence-cybercrime-tools,OK,200,https://www.hudsonrock.com/threat-intelligence-cybercrime-tools,1041,
+https://leakradar.io,REDIRECT,200,https://leakradar.io/en,1042,update to the canonical URL
+https://checkleaked.cc,OK,200,https://checkleaked.cc/,1043,
+https://www.chainalysis.com,OK,200,https://www.chainalysis.com/,1059,
+https://www.elliptic.co,OK,200,https://www.elliptic.co/,1060,
+https://info.arkm.com/,OK,200,https://info.arkm.com/,1061,
+https://glassnode.com,OK,200,https://glassnode.com/,1062,
+https://etherscan.io,BLOCKED,403,https://etherscan.io/,1063,"WAF, geo-restriction or login wall: check in a browser"
+https://www.blockchain.com/explorer,BLOCKED,403,https://www.blockchain.com/explorer,1064,"WAF, geo-restriction or login wall: check in a browser"
+https://www.blockcypher.com,OK,200,https://www.blockcypher.com/,1065,
+https://www.walletexplorer.com,OK,200,https://www.walletexplorer.com/,1066,
+https://github.com/openalpr/openalpr,OK,200,https://github.com/openalpr/openalpr,1085,
+https://www.carfax.com,OK,200,https://www.carfax.com/,1086,
+https://phantom.labs.jamessawyer.co.uk,REDIRECT,200,https://phantom.labs.jamessawyer.co.uk/login/?next=%2F,1095,update to the canonical URL
+https://www.kismetwireless.net,OK,200,https://www.kismetwireless.net/,1122,
+https://www.aircrack-ng.org,OK,200,https://www.aircrack-ng.org/,1123,
+https://weverify.eu/verification-plugin,OK,200,https://weverify.eu/verification-plugin/,1141,
+https://contentauthenticity.org,OK,200,https://contentauthenticity.org/,1146,
+https://github.com/gildas-lormeau/SingleFile,OK,200,https://github.com/gildas-lormeau/SingleFile,1163,
+https://github.com/sherlock-project/sherlock,OK,200,https://github.com/sherlock-project/sherlock,1171,
+https://github.com/WebBreacher/WhatsMyName,OK,200,https://github.com/WebBreacher/WhatsMyName,1173,
+https://github.com/antoniaci/blackbird,OK,200,https://github.com/antoniaci/blackbird,1175,
+https://github.com/s0md3v/Photon,OK,200,https://github.com/s0md3v/Photon,1192,
+https://scrapy.org,REDIRECT,200,https://www.scrapy.org/,1193,update to the canonical URL
+https://playwright.dev,OK,200,https://playwright.dev/,1194,
+https://www.selenium.dev,OK,200,https://www.selenium.dev/,1195,
+https://www.crummy.com/software/BeautifulSoup,OK,200,https://www.crummy.com/software/BeautifulSoup/,1196,
+https://target.com,REDIRECT,200,https://www.target.com/,1200,update to the canonical URL
+https://github.com/ElevenPaths/FOCA,OK,200,https://github.com/ElevenPaths/FOCA,1216,
+https://github.com/laramies/metagoofil,OK,200,https://github.com/laramies/metagoofil,1217,
+https://0xacab.org/jvoisin/mat2,OK,200,https://0xacab.org/jvoisin/mat2,1218,
+https://nmap.org,OK,200,https://nmap.org/,1240,
+https://github.com/robertdavidgraham/masscan,OK,200,https://github.com/robertdavidgraham/masscan,1241,
+https://github.com/bee-san/RustScan,OK,200,https://github.com/bee-san/RustScan,1242,
+https://github.com/projectdiscovery/nuclei,OK,200,https://github.com/projectdiscovery/nuclei,1243,
+https://github.com/blacklanternsecurity/bbot,OK,200,https://github.com/blacklanternsecurity/bbot,1259,
+https://github.com/yogeshojha/rengine,OK,200,https://github.com/yogeshojha/rengine,1260,
+https://github.com/six2dez/reconftw,OK,200,https://github.com/six2dez/reconftw,1261,
+https://github.com/j3ssie/osmedeus,OK,200,https://github.com/j3ssie/osmedeus,1262,
+https://github.com/ivre/ivre,OK,200,https://github.com/ivre/ivre,1263,
+https://github.com/smicallef/spiderfoot,OK,200,https://github.com/smicallef/spiderfoot,1297,
+https://github.com/lanmaster53/recon-ng,OK,200,https://github.com/lanmaster53/recon-ng,1298,
+https://github.com/laramies/theHarvester,OK,200,https://github.com/laramies/theHarvester,1299,
+https://www.maltego.com,OK,200,https://www.maltego.com/,1300,
+https://github.com/smicallef/spiderfoot.git,REDIRECT,200,https://github.com/smicallef/spiderfoot,1304,update to the canonical URL
+https://github.com/lissy93/web-check,OK,200,https://github.com/lissy93/web-check,1316,
+https://github.com/qeeqbox/social-analyzer,OK,200,https://github.com/qeeqbox/social-analyzer,1317,
+https://github.com/reconurge/flowsint,OK,200,https://github.com/reconurge/flowsint,1318,
+https://github.com/cipher387/osint_stuff_tool_collection,OK,200,https://github.com/cipher387/osint_stuff_tool_collection,1319,
+https://github.com/OpenOSINT/OpenOSINT,OK,200,https://github.com/OpenOSINT/OpenOSINT,1320,
+https://pipl.com,OK,200,https://pipl.com/,1468,
+https://www.spokeo.com,OK,200,https://www.spokeo.com/,1469,
+https://www.beenverified.com,OK,200,https://www.beenverified.com/,1470,
+https://www.intelius.com,BLOCKED,403,https://www.intelius.com/,1471,"WAF, geo-restriction or login wall: check in a browser"
+https://www.whitepages.com,NO_RESPONSE,,,1472,ConnectionError
+https://www.zabasearch.com,BLOCKED,403,https://www.zabasearch.com/,1473,"WAF, geo-restriction or login wall: check in a browser"
+https://www.peoplefinder.com,OK,200,https://www.peoplefinder.com/,1474,
+https://www.instantcheckmate.com,BLOCKED,403,https://www.instantcheckmate.com/,1475,"WAF, geo-restriction or login wall: check in a browser"
+https://www.truthfinder.com,BLOCKED,403,https://www.truthfinder.com/,1476,"WAF, geo-restriction or login wall: check in a browser"
+https://www.ussearch.com,BLOCKED,403,https://www.ussearch.com/,1477,"WAF, geo-restriction or login wall: check in a browser"
+https://crunchbase.com,REDIRECT,200,https://www.crunchbase.com/,1487,update to the canonical URL
+https://wellfound.com,OK,200,https://wellfound.com/,1488,
+https://pitchbook.com,BLOCKED,403,https://pitchbook.com/,1489,"WAF, geo-restriction or login wall: check in a browser"
+https://www.zoominfo.com,BLOCKED,403,https://www.zoominfo.com/,1490,"WAF, geo-restriction or login wall: check in a browser"
+https://app.dnbhoovers.com,REDIRECT,200,https://app.dnbhoovers.com/login?F5014233564260O0ZDY=_,1491,update to the canonical URL
+https://www.dnb.com/en-us/,OK,200,https://www.dnb.com/en-us/,1492,
+https://www.sec.gov/edgar,BLOCKED,403,https://www.sec.gov/edgar,1493,"WAF, geo-restriction or login wall: check in a browser"
+https://opencorporates.com,BLOCKED,403,https://opencorporates.com/,1494,"WAF, geo-restriction or login wall: check in a browser"
+https://find-and-update.company-information.service.gov.uk,OK,200,https://find-and-update.company-information.service.gov.uk/,1495,
+https://www.bloomberg.com,BLOCKED,403,https://www.bloomberg.com/,1496,"WAF, geo-restriction or login wall: check in a browser"
+https://feodotracker.abuse.ch,OK,200,https://feodotracker.abuse.ch/,1509,
+https://sslbl.abuse.ch,OK,200,https://sslbl.abuse.ch/,1510,
+http://www.malshare.com,OK,200,http://www.malshare.com/,1512,
+https://virusshare.com,OK,200,https://virusshare.com/,1513,
+https://www.recordedfuture.com,OK,200,https://www.recordedfuture.com/,1517,
+https://www.microsoft.com/en-us/wdsi,OK,200,https://www.microsoft.com/en-us/wdsi,1518,
+https://www.cisa.gov/known-exploited-vulnerabilities-catalog,BLOCKED,403,https://www.cisa.gov/known-exploited-vulnerabilities-catalog,1519,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/cisagov/vulnrichment,OK,200,https://github.com/cisagov/vulnrichment,1520,
+https://openphish.com,OK,200,https://openphish.com/,1526,
+https://fraudguard.io,OK,200,https://fraudguard.io/,1527,
+https://www.hudsonrock.com,OK,200,https://www.hudsonrock.com/,1533,
+https://www.spamhaus.org,OK,200,https://www.spamhaus.org/,1538,
+https://www.abuseipdb.com,BLOCKED,403,https://www.abuseipdb.com/,1540,"WAF, geo-restriction or login wall: check in a browser"
+https://www.misp-project.org,OK,200,https://www.misp-project.org/,1549,
+https://filigran.io/products/opencti,OK,200,https://filigran.io/products/opencti,1550,
+https://github.com/frangelbarrera/aegistrace-threat-intelligence,OK,200,https://github.com/frangelbarrera/aegistrace-threat-intelligence,1552,
+https://github.com/intelowlproject/IntelOwl,OK,200,https://github.com/intelowlproject/IntelOwl,1562,
+https://github.com/Te-k/harpoon,OK,200,https://github.com/Te-k/harpoon,1563,
+https://github.com/frangelbarrera/ICS-Cybersecurity-Audit,OK,200,https://github.com/frangelbarrera/ICS-Cybersecurity-Audit,1572,
+https://attack.mitre.org/matrices/ics,OK,200,https://attack.mitre.org/matrices/ics/,1573,
+https://www.cisa.gov/ics,BLOCKED,403,https://www.cisa.gov/ics,1574,"WAF, geo-restriction or login wall: check in a browser"
+https://csrc.nist.gov/pubs/sp/800/82/r3/final,OK,200,https://csrc.nist.gov/pubs/sp/800/82/r3/final,1575,
+https://github.com/frangelbarrera/industrial-scanner,OK,200,https://github.com/frangelbarrera/industrial-scanner,1580,
+https://www.shodan.io/search?query=port%3A502,BLOCKED,403,https://www.shodan.io/search?query=port%3A502,1581,"WAF, geo-restriction or login wall: check in a browser"
+https://search.censys.io/search?resource=hosts&q=tags%3A%22ics%22,BLOCKED,403,https://search.censys.io/search?resource=hosts&q=tags%3A%22ics%22,1582,"WAF, geo-restriction or login wall: check in a browser"
+https://claroty.com,OK,200,https://claroty.com/,1583,
+https://www.nozominetworks.com,OK,200,https://www.nozominetworks.com/,1584,
+https://github.com/frangelbarrera/ICS-Cybersecurity-Audit/tree/main/docs/case-studies,OK,200,https://github.com/frangelbarrera/ICS-Cybersecurity-Audit/tree/main/docs/case-studies,1596,
+https://www.pulsemcp.com,BLOCKED,403,https://www.pulsemcp.com/,1618,"WAF, geo-restriction or login wall: check in a browser"
+https://glama.ai/mcp/servers,OK,200,https://glama.ai/mcp/servers,1619,
+https://github.com/punkpeye/awesome-mcp-servers,OK,200,https://github.com/punkpeye/awesome-mcp-servers,1620,
+https://github.com/brave/brave-search-mcp-server,OK,200,https://github.com/brave/brave-search-mcp-server,1625,
+https://github.com/modelcontextprotocol/servers/blob/main/src/fetch,REDIRECT,200,https://github.com/modelcontextprotocol/servers/tree/main/src/fetch,1626,update to the canonical URL
+https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite,OK,200,https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite,1627,
+https://github.com/Significant-Gravitas/AutoGPT,OK,200,https://github.com/Significant-Gravitas/AutoGPT,1632,
+https://github.com/crewAIInc/crewAI,OK,200,https://github.com/crewAIInc/crewAI,1633,
+https://github.com/langchain-ai/langgraph,OK,200,https://github.com/langchain-ai/langgraph,1634,
+https://n8n.io,OK,200,https://n8n.io/,1635,
+https://dify.ai,OK,200,https://dify.ai/,1636,
+https://github.com/frangelbarrera/secure-agent-orchestrator,OK,200,https://github.com/frangelbarrera/secure-agent-orchestrator,1637,
+https://ollama.com,OK,200,https://ollama.com/,1642,
+https://lmstudio.ai,OK,200,https://lmstudio.ai/,1643,
+https://github.com/vllm-project/vllm,OK,200,https://github.com/vllm-project/vllm,1644,
+https://jan.ai,REDIRECT,200,https://www.jan.ai/,1645,update to the canonical URL
+https://github.com/frangelbarrera/osint-agent-skills.git,REDIRECT,200,https://github.com/frangelbarrera/osint-agent-skills,1650,update to the canonical URL
+https://find-and-update.company-information.service.gov.uk/,OK,200,https://find-and-update.company-information.service.gov.uk/,1678,
+https://aleph.occrp.org,OK,200,https://aleph.occrp.org/,1679,
+https://www.openownership.org/en/topics/open-ownership-register/,BLOCKED,403,https://www.openownership.org/en/topics/open-ownership-register/,1681,"WAF, geo-restriction or login wall: check in a browser"
+https://www.gleif.org,REDIRECT,200,https://www.gleif.org/en,1681,update to the canonical URL
+https://offshoreleaks.icij.org,OK,200,https://offshoreleaks.icij.org/,1682,
+https://littlesis.org,OK,200,https://littlesis.org/,1683,
+https://obsidian.md,OK,200,https://obsidian.md/,1684,
+https://www.opensanctions.org,OK,200,https://www.opensanctions.org/,1685,
+https://ofac.treasury.gov,OK,200,https://ofac.treasury.gov/,1685,
+https://www.fatf-gafi.org/en/topics/high-risk-and-other-monitored-jurisdictions.html,BLOCKED,403,https://www.fatf-gafi.org/en/topics/high-risk-and-other-monitored-jurisdictions.html,1686,"WAF, geo-restriction or login wall: check in a browser"
+https://www.courtlistener.com,OK,200,https://www.courtlistener.com/,1687,
+https://followthemoney.tech,OK,200,https://followthemoney.tech/,1701,
+https://www.fincen.gov,OK,200,https://www.fincen.gov/,1702,
+https://www.sanctionsmap.eu,OK,200,https://www.sanctionsmap.eu/,1706,
+https://www.opensecrets.org,BLOCKED,403,https://www.opensecrets.org/,1708,"WAF, geo-restriction or login wall: check in a browser"
+https://sayari.com,OK,200,https://sayari.com/,1709,
+https://www.equasis.org,REDIRECT,200,https://www.equasis.org/EquasisWeb/public/HomePage,1710,update to the canonical URL
+https://dune.com,BLOCKED,403,https://dune.com/,1712,"WAF, geo-restriction or login wall: check in a browser"
+https://nansen.ai,OK,200,https://nansen.ai/,1713,
+https://arbiscan.io,OK,200,https://arbiscan.io/,1714,
+https://basescan.org,BLOCKED,403,https://basescan.org/,1715,"WAF, geo-restriction or login wall: check in a browser"
+https://optimistic.etherscan.io,BLOCKED,403,https://optimistic.etherscan.io/,1716,"WAF, geo-restriction or login wall: check in a browser"
+https://www.justice.gov/criminal/criminal-mnf,OK,200,https://www.justice.gov/criminal/criminal-mnf,1742,
+https://www.justice.gov/opa/pr/united-states-seeks-recover-more-1-billion-obtained-corruption-involving-malaysian-sovereign,REDIRECT,200,https://www.justice.gov/archives/opa/pr/united-states-seeks-recover-more-1-billion-obtained-corruption-involving-malaysian-sovereign,1743,update to the canonical URL
+https://www.justice.gov/archives/opa/pr/over-1-billion-misappropriated-1mdb-funds-now-repatriated-malaysia,OK,200,https://www.justice.gov/archives/opa/pr/over-1-billion-misappropriated-1mdb-funds-now-repatriated-malaysia,1744,
+https://www.sarawakreport.org,OK,200,https://www.sarawakreport.org/,1745,
+https://pacer.uscourts.gov,OK,200,https://pacer.uscourts.gov/,1747,
+https://coveryourtracks.eff.org,OK,200,https://coveryourtracks.eff.org/,1757,
+https://github.com/AbrahamJuliot/creepjs,OK,200,https://github.com/AbrahamJuliot/creepjs,1758,
+https://mullvad.net/en/browser,OK,200,https://mullvad.net/en/browser,1759,
+https://librewolf.net,OK,200,https://librewolf.net/,1760,
+https://www.whonix.org,OK,200,https://www.whonix.org/,1761,
+https://mullvad.net,REDIRECT,200,https://mullvad.net/en,1792,update to the canonical URL
+https://www.ivpn.net,OK,200,https://www.ivpn.net/,1793,
+https://protonvpn.com,OK,200,https://protonvpn.com/,1794,
+https://www.torproject.org,OK,200,https://www.torproject.org/,1795,
+https://snowflake.torproject.org,OK,200,https://snowflake.torproject.org/,1796,
+https://bridges.torproject.org,OK,200,https://bridges.torproject.org/,1797,
+https://buckets.grayhatwarfare.com,OK,200,https://buckets.grayhatwarfare.com/,1807,
+https://osint.sh/buckets,BLOCKED,403,https://osint.sh/buckets,1808,"WAF, geo-restriction or login wall: check in a browser"
+https://github.com/initstring/cloud_enum,OK,200,https://github.com/initstring/cloud_enum,1809,
+https://grayhatwarfare.com,OK,200,https://grayhatwarfare.com/,1810,
+https://github.com/MobSF/Mobile-Security-Framework-MobSF,OK,200,https://github.com/MobSF/Mobile-Security-Framework-MobSF,1847,
+https://github.com/skylot/jadx,OK,200,https://github.com/skylot/jadx,1848,
+https://ibotpeaches.github.io/Apktool/,OK,200,https://ibotpeaches.github.io/Apktool/,1849,
+https://github.com/pxb1988/dex2jar,OK,200,https://github.com/pxb1988/dex2jar,1850,
+https://apkpure.com,BLOCKED,403,https://apkpure.com/,1851,"WAF, geo-restriction or login wall: check in a browser"
+https://www.apkmirror.com,BLOCKED,403,https://www.apkmirror.com/,1852,"WAF, geo-restriction or login wall: check in a browser"
+https://docs.bsky.app/docs/advanced-guides/firehose,REDIRECT,200,https://bsky.network/docs/advanced-guides/firehose/,1885,update to the canonical URL
+https://atproto.blue/en/latest/atproto_firehose/index.html,REDIRECT,200,https://atproto.blue/atproto_firehose/index.html,1886,update to the canonical URL
+https://reaper.social,OK,200,https://reaper.social/,1887,
+https://www.digitalstakeout.com/blog/bluesky-firehose-integration,OK,200,https://www.digitalstakeout.com/blog/bluesky-firehose-integration,1888,
+https://nostr.org,OK,200,https://nostr.org/,1889,
+https://justdeleteme.xyz,OK,200,https://justdeleteme.xyz/,1915,
+https://justgetmydata.com,OK,200,https://justgetmydata.com/,1916,
+https://github.com/prose-intelligence-ltd/Telepathy-Community,OK,200,https://github.com/prose-intelligence-ltd/Telepathy-Community,1944,
+https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg,OK,200,https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg,1945,
+https://telegramdb.org,BLOCKED,403,https://telegramdb.org/,1946,"WAF, geo-restriction or login wall: check in a browser"
+https://discordleaks.unicornriot.ninja/,NO_RESPONSE,,,1948,ReadTimeout
+https://my.telegram.org,REDIRECT,200,https://my.telegram.org/auth,1952,update to the canonical URL
+https://disboard.org,BLOCKED,403,https://disboard.org/,1960,"WAF, geo-restriction or login wall: check in a browser"
+https://discordservers.com,OK,200,https://discordservers.com/,1960,
+https://discord.id,OK,200,https://discord.id/,1963,
+https://www.osintcombine.com/post/inside-discord-an-osint-guide-to-servers-search-and-opsec,OK,200,https://www.osintcombine.com/post/inside-discord-an-osint-guide-to-servers-search-and-opsec,1968,
+https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy,OK,200,https://bellingcat.gitbook.io/toolkit/more/all-tools/telepathy,1969,
+https://www.osinthandbook.com/telegram,OK,200,https://www.osinthandbook.com/telegram,1970,
+https://skyfi.com,OK,200,https://skyfi.com/,1983,
+https://worldview.earthdata.nasa.gov,OK,200,https://worldview.earthdata.nasa.gov/,1985,
+https://earthexplorer.usgs.gov,OK,200,https://earthexplorer.usgs.gov/,1986,
+https://www.planet.com,OK,200,https://www.planet.com/,1987,
+https://vantor.com/,OK,200,https://vantor.com/,1988,
+https://www.umbra.space,REDIRECT,200,https://umbra.space/,1989,update to the canonical URL
+https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements,OK,200,https://www.bellingcat.com/resources/2024/05/17/how-to-use-free-satellite-imagery-to-monitor-the-expansion-of-west-bank-settlements,2003,
+https://gijn.org/resource/guide-acquire-free-satellite-images,BLOCKED,403,https://gijn.org/resource/guide-acquire-free-satellite-images,2004,"WAF, geo-restriction or login wall: check in a browser"
+https://c2paviewer.com,OK,200,https://c2paviewer.com/,2016,
+https://contentcredentials.org,OK,200,https://contentcredentials.org/,2017,
+https://deepmind.google/models/synthid/,OK,200,https://deepmind.google/models/synthid/,2018,
+https://www.realitydefender.com,OK,200,https://www.realitydefender.com/,2019,
+https://truepic.com,REDIRECT,200,https://www.truepic.com/,2020,update to the canonical URL
+https://opensource.contentauthenticity.org,OK,200,https://opensource.contentauthenticity.org/,2022,
+https://github.com/google-deepmind/synthid-text,OK,200,https://github.com/google-deepmind/synthid-text,2023,
+https://timeline.knightlab.com,OK,200,https://timeline.knightlab.com/,2252,
+https://www.aeontimeline.com,OK,200,https://www.aeontimeline.com/,2253,
+https://www.drawio.com/,OK,200,https://www.drawio.com/,2254,
+https://www.zotero.org,OK,200,https://www.zotero.org/,2255,
+https://cryptpad.fr,OK,200,https://cryptpad.fr/,2256,
+https://standardnotes.com,OK,200,https://standardnotes.com/,2257,
+https://veracrypt.io/,OK,200,https://veracrypt.io/,2258,
+https://opentimestamps.org,OK,200,https://opentimestamps.org/,2261,
+https://hunch.ly,OK,200,https://hunch.ly/,2262,
+https://web.archive.org,OK,200,https://web.archive.org/,2263,
+https://archive.today,BLOCKED,429,https://archive.ph/,2264,"WAF, geo-restriction or login wall: check in a browser"
+https://datasette.io,OK,200,https://datasette.io/,2266,
+https://gephi.org,OK,200,https://gephi.org/,2267,
+https://rawgraphs.io,REDIRECT,200,https://www.rawgraphs.io/,2268,update to the canonical URL
+https://www.datawrapper.de,OK,200,https://www.datawrapper.de/,2269,
+https://qgis.org,OK,200,https://qgis.org/,2270,
+https://www.mapillary.com,BLOCKED,400,https://www.mapillary.com/,2271,"WAF, geo-restriction or login wall: check in a browser"
+https://www.atlos.org,OK,200,https://www.atlos.org/,2272,
+https://github.com/bellingcat/auto-archiver,OK,200,https://github.com/bellingcat/auto-archiver,2273,
+https://github.com/digitalmethodsinitiative/4cat,OK,200,https://github.com/digitalmethodsinitiative/4cat,2274,
+https://journaliststudio.google.com/pinpoint/collections,OK,200,https://journaliststudio.google.com/pinpoint/collections,2275,
+https://www.bellingcat.com/app/uploads/2015/10/MH17-The-Open-Source-Evidence-EN.pdf,OK,200,https://www.bellingcat.com/app/uploads/2015/10/MH17-The-Open-Source-Evidence-EN.pdf,2324,
+https://www.bellingcat.com/news/europe/2017/07/17/mh17-open-source-investigation-three-years-later/,OK,200,https://www.bellingcat.com/news/europe/2017/07/17/mh17-open-source-investigation-three-years-later/,2325,
+https://www.bellingcat.com/news/europe/2018/10/09/full-report-skripal-poisoning-suspect-dr-alexander-mishkin-hero-russia/,OK,200,https://www.bellingcat.com/news/europe/2018/10/09/full-report-skripal-poisoning-suspect-dr-alexander-mishkin-hero-russia/,2327,
+https://www.bellingcat.com/news/2020/12/14/fsb-team-of-chemical-weapon-experts-implicated-in-alexey-navalny-novichok-poisoning/,OK,200,https://www.bellingcat.com/news/2020/12/14/fsb-team-of-chemical-weapon-experts-implicated-in-alexey-navalny-novichok-poisoning/,2329,
+https://www.bellingcat.com/resources/2020/12/14/navalny-fsb-methodology/,OK,200,https://www.bellingcat.com/resources/2020/12/14/navalny-fsb-methodology/,2330,
+https://www.bellingcat.com/news/2022/02/27/follow-the-russia-ukraine-monitor-map/,OK,200,https://www.bellingcat.com/news/2022/02/27/follow-the-russia-ukraine-monitor-map/,2332,
+https://cloud.google.com/blog/topics/threat-intelligence/unc2452-merged-into-apt29,OK,200,https://cloud.google.com/blog/topics/threat-intelligence/unc2452-merged-into-apt29,2366,
+https://services.google.com/fh/files/misc/m-trends-2025-en.pdf,OK,200,https://services.google.com/fh/files/misc/m-trends-2025-en.pdf,2367,
+https://cloud.google.com/security/resources/insights/apt-groups,OK,200,https://cloud.google.com/security/resources/insights/apt-groups,2368,
+https://cloud.google.com/blog/topics/threat-intelligence/trade-offs-attribution,OK,200,https://cloud.google.com/blog/topics/threat-intelligence/trade-offs-attribution,2369,
+https://gtidocs.virustotal.com/docs/suspected-attribution,OK,200,https://gtidocs.virustotal.com/docs/suspected-attribution,2377,
+https://en.wikipedia.org/wiki/Fancy_Bear,OK,200,https://en.wikipedia.org/wiki/Fancy_Bear,2402,
+https://www.crowdstrike.com/en-us/global-threat-report/,OK,200,https://www.crowdstrike.com/en-us/global-threat-report/,2403,
+https://www.crowdstrike.com/en-us/adversaries/,OK,200,https://www.crowdstrike.com/en-us/adversaries/,2416,
+https://learn.microsoft.com/en-us/unified-secops/microsoft-threat-actor-naming,REDIRECT,200,https://learn.microsoft.com/en-us/defender-xdr/microsoft-threat-actor-naming,2421,update to the canonical URL
+https://www.recordedfuture.com/research,OK,200,https://www.recordedfuture.com/research,2429,
+https://cloud.google.com/blog/topics/threat-intelligence,OK,200,https://cloud.google.com/blog/topics/threat-intelligence,2466,
+https://gtidocs.virustotal.com/,OK,200,https://gtidocs.virustotal.com/,2469,
+https://www.virustotal.com/gui/,OK,200,https://www.virustotal.com/gui/,2470,
+https://github.com/mandiant,OK,200,https://github.com/mandiant,2471,
+https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2024,OK,200,https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2024,2487,
+https://www.microsoft.com/en-us/security/blog,OK,200,https://www.microsoft.com/en-us/security/blog/,2514,
+https://www.microsoft.com/en-us/msrc,OK,200,https://www.microsoft.com/en-us/msrc,2517,
+https://blog.talosintelligence.com/2025-talos-year-in-review-speed-scale-and-staying-power/,OK,200,https://blog.talosintelligence.com/2025-talos-year-in-review-speed-scale-and-staying-power/,2555,
+https://github.com/Cisco-Talos,OK,200,https://github.com/Cisco-Talos,2556,
+https://securelist.com/stuxnet-zero-victims/67483/,OK,200,https://securelist.com/stuxnet-zero-victims/67483/,2564,
+https://securelist.com/the-flame-questions-and-answers/34344/,OK,200,https://securelist.com/the-flame-questions-and-answers/34344/,2565,
+https://securelist.com/gauss-abnormal-distribution/36620/,OK,200,https://securelist.com/gauss-abnormal-distribution/36620/,2566,
+https://securelist.com/investigation-report-for-the-september-2014-equation-malware-detection-incident-in-the-us/83210/,OK,200,https://securelist.com/investigation-report-for-the-september-2014-equation-malware-detection-incident-in-the-us/83210/,2567,
+https://en.wikipedia.org/wiki/Kaspersky_Lab,OK,200,https://en.wikipedia.org/wiki/Kaspersky_Lab,2587,
+https://gti.kaspersky.com/en,OK,200,https://gti.kaspersky.com/en,2589,
+https://www.kaspersky.com/transparency-center,OK,200,https://www.kaspersky.com/transparency-center,2589,
+https://www.kaspersky.com/enterprise-security/threat-intelligence,OK,200,https://www.kaspersky.com/enterprise-security/threat-intelligence,2597,
+https://github.com/kaspersky,OK,200,https://github.com/kaspersky,2599,

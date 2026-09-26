@@ -1,6 +1,6 @@
 # audit
 
-Link-health reports for the README.
+Link-health reports for the README hub. The CI workflow also checks every Markdown file in `countries/`.
 
 ## How a report is produced
 
@@ -14,7 +14,7 @@ python3 scripts/link_checker.py README.md audit/links-status-$DATE.csv --all
 | File | Contents |
 |---|---|
 | `latest.md` | Summary of the most recent check, with totals and report date |
-| `links-status-YYYY-MM-DD.csv` | Every URL from that run with its status, HTTP code, final URL and source line |
+| `links-status-YYYY-MM-DD.csv` | URLs from the README hub with status, HTTP code, final URL, source line and note |
 
 The CSV is generated with `--all`, so it contains one row per unique URL inspected, including `OK` rows. Without `--all`, the checker writes only non-`OK` rows.
 

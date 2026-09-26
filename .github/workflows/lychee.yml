@@ -5,11 +5,13 @@ on:
     branches: [main]
     paths:
       - 'README.md'
+      - 'countries/**/*.md'
       - 'lychee.toml'
   pull_request:
     branches: [main]
     paths:
       - 'README.md'
+      - 'countries/**/*.md'
       - 'lychee.toml'
   schedule:
     - cron: "0 3 * * 1"
@@ -32,7 +34,7 @@ jobs:
           args: >
             --config ./lychee.toml
             --no-progress
-            README.md
+            README.md countries/*.md
           fail: false
           jobSummary: true
           format: markdown
