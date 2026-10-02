@@ -1,5 +1,13 @@
-# Curation policy
+**Maintainer:** Frangel Raúl Crespo Barrera
+**Last verified:** 2026-10-02
+**Scope:** sources, country files, tools, scripts, freshness, duplicates, and link validation.
 
-Review sources for relevance, accessibility, provenance, freshness, duplication, and safe authorized use. Record the last verification date where practical and remove or correct stale or compromised links.
+| Field | Current record |
+|---|---|
+| Status | Documentation repository with auxiliary scripts; `repo-health.yml` validates data and freshness, and `lychee.yml` checks links. |
+| Evidence | `data/`, `countries/`, `scripts/`, `schema/`, `.github/workflows/repo-health.yml`, `.github/workflows/lychee.yml`, `SECURITY.md`. |
+| Verification | Run the repository validation workflow and review link-check artifacts; record source verification dates where practical. |
+| Owner | Repository owner and contributors. |
+| Limitations | Link availability does not prove source accuracy, safety, or authorization. |
 
-Tools and scripts are auxiliary to the documentation unless their operational use is explicitly documented. Treat dual-use material carefully and do not include credentials, private data, or instructions that presume unauthorized access.
+Review sources for relevance, provenance, freshness, duplication, accessibility, and dual-use risk. Do not include credentials or private data.
