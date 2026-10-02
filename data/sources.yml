@@ -1,0 +1,463 @@
+# Machine-readable source registry for OSINT-BIBLE.
+# status: ok = HTTP 2xx | blocked = 401/403/406/418/429 (alive, WAF/geo) | review = needs re-check
+sources:
+  - id: kvk-handelsregister
+    name: KVK Handelsregister (Netherlands)
+    url: https://www.kvk.nl/en/search/
+    category: company
+    country: "NL"
+    region: Western Europe
+    purpose: Dutch Business Register search by company name, KVK number or keyword.
+    cost: free
+    language: [en, nl]
+    tags: [registry, beneficial-ownership, eu]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: uae-bayanat-open-data
+    name: Bayanat — UAE Open Data
+    url: https://bayanat.ae/
+    category: company
+    country: "AE"
+    region: Middle East
+    purpose: UAE national open data platform with company, demographic and economic datasets.
+    cost: free
+    language: [en, ar]
+    tags: [open-data, registry, gcc]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: india-mca-cdm
+    name: MCA Corporate Data Management (India)
+    url: https://mcacdm.nic.in/
+    category: company
+    country: "IN"
+    region: Asia-Pacific
+    purpose: Company statistics and corporate master data published by India's Ministry of Corporate Affairs.
+    cost: free
+    language: [en, hi]
+    tags: [registry, statistics, mca]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: india-mca-name-search
+    name: MCA Company/LLP Name Search (India)
+    url: https://www.mca.gov.in/content/mca/global/en/mca/fo-llp-services/company-llp-name-search.html
+    category: company
+    country: "IN"
+    region: Asia-Pacific
+    purpose: Official name search for companies and LLPs registered in India.
+    cost: free
+    language: [en]
+    tags: [registry, filings]
+    verified: "2026-09-30"
+    status: blocked
+    notes: Answers 403 to automated clients; works in a browser.
+    readme_section: sources:company
+
+  - id: southafrica-cipc
+    name: CIPC (South Africa)
+    url: https://www.cipc.co.za/
+    category: company
+    country: "ZA"
+    region: Africa
+    purpose: Companies and Intellectual Property Commission — company and IP registry searches.
+    cost: registration
+    language: [en]
+    tags: [registry, africa, ip]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: nigeria-cac
+    name: Corporate Affairs Commission (Nigeria)
+    url: https://www.cac.gov.ng/
+    category: company
+    country: "NG"
+    region: Africa
+    purpose: Nigerian company registry, post-incorporation filings and name search.
+    cost: registration
+    language: [en]
+    tags: [registry, africa]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients; use in a browser.
+    readme_section: sources:company
+
+  - id: sweden-bolagsverket
+    name: Bolagsverket (Sweden)
+    url: https://www.bolagsverket.se/
+    category: company
+    country: "SE"
+    region: Northern Europe
+    purpose: Swedish Companies Registration Office — annual reports, filings and registry data.
+    cost: freemium
+    language: [sv, en]
+    tags: [registry, filings, nordics]
+    verified: "2026-09-30"
+    status: blocked
+    notes: Connection reset to automated clients; reachable in a browser.
+    readme_section: sources:company
+
+  - id: norway-brreg
+    name: Brønnøysund Register Centre (Norway)
+    url: https://www.brreg.no/
+    category: company
+    country: "NO"
+    region: Northern Europe
+    purpose: Norwegian business registry with free open datasets and API.
+    cost: free
+    language: ["no", en]
+    tags: [registry, open-data, api, nordics]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: finland-virre
+    name: Virre Business Information System (Finland)
+    url: https://virre.prh.fi/
+    category: company
+    country: "FI"
+    region: Northern Europe
+    purpose: Finnish Trade Register and Beneficial Owner Register lookups.
+    cost: freemium
+    language: [fi, sv, en]
+    tags: [registry, beneficial-ownership, nordics]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: switzerland-zefix
+    name: Zefix (Switzerland)
+    url: https://www.zefix.ch/
+    category: company
+    country: "CH"
+    region: Western Europe
+    purpose: Central Swiss commercial-register index — company search and register extracts.
+    cost: freemium
+    language: [de, fr, it, en]
+    tags: [registry]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: austria-justizonline
+    name: JustizOnline Firmenbuch (Austria)
+    url: https://justizonline.gv.at/
+    category: company
+    country: "AT"
+    region: Western Europe
+    purpose: Austrian commercial register (Firmenbuch) and justice services portal.
+    cost: freemium
+    language: [de]
+    tags: [registry, legal]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: belgium-kbo
+    name: KBO/BCE Public Search (Belgium)
+    url: https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html
+    category: company
+    country: "BE"
+    region: Western Europe
+    purpose: Belgian Crossroads Bank for Enterprises — free public company search by number.
+    cost: free
+    language: [nl, fr, de, en]
+    tags: [registry, eu]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: ireland-core-cro
+    name: CORE — Companies Registration Office (Ireland)
+    url: https://core.cro.ie/
+    category: company
+    country: "IE"
+    region: Western Europe
+    purpose: Irish company and business-name search, filings and annual returns.
+    cost: freemium
+    language: [en, ga]
+    tags: [registry, filings, eu]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients; login wall for full documents.
+    readme_section: sources:company
+
+  - id: denmark-cvr
+    name: CVR — Det Centrale Virksomhedsregister (Denmark)
+    url: https://datacvr.virk.dk/
+    category: company
+    country: "DK"
+    region: Northern Europe
+    purpose: Danish central business register with free API and open datasets.
+    cost: free
+    language: [da, en]
+    tags: [registry, api, open-data, nordics]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients; free API at cvrapi.dk / Erhvervsstyrelsen.
+    readme_section: sources:company
+
+  - id: estonia-rik
+    name: e-Business Register (Estonia)
+    url: https://www.rik.ee/
+    category: company
+    country: "EE"
+    region: Eastern Europe
+    purpose: Estonian business register and beneficial-owner data, highly digitised.
+    cost: freemium
+    language: [et, en]
+    tags: [registry, beneficial-ownership, eu]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients.
+    readme_section: sources:company
+
+  - id: peru-sunarp
+    name: SUNARP (Peru)
+    url: https://www.sunarp.gob.pe/
+    category: company
+    country: "PE"
+    region: South America
+    purpose: Peruvian national registry of companies, property and legal entities.
+    cost: freemium
+    language: [es]
+    tags: [registry, latin-america, property]
+    verified: "2026-09-30"
+    status: blocked
+    notes: Answers 418 to non-browser clients; works in a browser.
+    readme_section: sources:company
+
+  - id: colombia-rues
+    name: RUES (Colombia)
+    url: https://www.rues.org.co/
+    category: company
+    country: "CO"
+    region: South America
+    purpose: Single Business Register of Colombia — free company and legal-representative search.
+    cost: free
+    language: [es]
+    tags: [registry, latin-america, free]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: chile-registro-empresas
+    name: Registro de Empresas y Sociedades (Chile)
+    url: https://www.registrodeempresasysociedades.cl/
+    category: company
+    country: "CL"
+    region: South America
+    purpose: Chilean public company registry created under the "Empresa en un Día" regime.
+    cost: free
+    language: [es]
+    tags: [registry, latin-america, free]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: gleif-lei
+    name: GLEIF — Legal Entity Identifier search
+    url: https://www.gleif.org/
+    category: company
+    region: Global
+    purpose: Global LEI registry linking legal entities, parents and subsidiaries across jurisdictions.
+    cost: free
+    language: [en]
+    tags: [registry, corporate-structure, api]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: opensanctions
+    name: OpenSanctions
+    url: https://www.opensanctions.org/
+    category: company
+    region: Global
+    purpose: Consolidates sanctions lists, PEPs and company data for screening; free bulk data and API.
+    cost: freemium
+    language: [en]
+    tags: [sanctions, pep, screening, api]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: occrp-aleph
+    name: OCCRP Aleph
+    url: https://aleph.occrp.org/
+    category: company
+    region: Global
+    purpose: Searchable archive of company registries, leaks and court records across jurisdictions.
+    cost: freemium
+    language: [en]
+    tags: [leaks, registry, investigative]
+    verified: "2026-09-30"
+    status: ok
+    notes: Answers 405 to HEAD; the web app and API work with GET.
+    readme_section: sources:company
+
+  - id: occrp-id-databases
+    name: OCCRP "ID" — research database catalogue
+    url: https://id.occrp.org/databases/
+    category: company
+    region: Global
+    purpose: Catalogue of national company, land and court databases with access notes per country.
+    cost: free
+    language: [en]
+    tags: [catalogue, registry, investigative]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: wb-openownership
+    name: OpenOwnership
+    url: https://openownership.org/
+    category: company
+    region: Global
+    purpose: Global beneficial-ownership data standard and register directory.
+    cost: free
+    language: [en]
+    tags: [beneficial-ownership, standard, ubo]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients; site works in a browser.
+    readme_section: sources:company
+
+  - id: us-ofac-sanctions-search
+    name: OFAC Sanctions List Search (US Treasury)
+    url: https://sanctionssearch.ofac.treas.gov/
+    category: company
+    country: "US"
+    region: North America
+    purpose: Official US OFAC SDN and consolidated sanctions screening tool.
+    cost: free
+    language: [en]
+    tags: [sanctions, official, screening]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:company
+
+  - id: gijn-databases-country
+    name: GIJN — Open Source Databases by Country
+    url: https://gijn.org/resource/open-source-databases-country/
+    category: regional
+    region: Global
+    purpose: Country-by-country directory of open data portals, company registries and court records.
+    cost: free
+    language: [en]
+    tags: [catalogue, directory, journalism]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients; opens normally in a browser.
+    readme_section: sources:regional
+
+  - id: bellingcat-toolkit
+    name: Bellingcat Online Investigation Toolkit
+    url: https://bellingcat.gitbook.io/toolkit
+    category: verification
+    region: Global
+    purpose: Curated, community-maintained catalogue of verification and geolocation tools.
+    cost: free
+    language: [en]
+    tags: [toolkit, verification, geoint]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
+
+  - id: digitaldigging-osint
+    name: Digital Digging — OSINT Resources by Country v2.0
+    url: https://digitaldigging.org/osint/
+    category: regional
+    region: Global
+    purpose: Country-indexed OSINT links covering databases, properties, vehicles and people search.
+    cost: free
+    language: [en]
+    tags: [directory, country, vehicle]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
+
+  - id: unishka-osint-world
+    name: UNISHKA OSINT World Series
+    url: https://unishka.com/resources/
+    category: regional
+    region: Global
+    purpose: Country-specific OSINT toolkits compiling portals, registries and people-search tools.
+    cost: free
+    language: [en]
+    tags: [toolkit, country, directory]
+    verified: "2026-09-30"
+    status: blocked
+    notes: 403 to automated clients.
+    readme_section: sources:regional
+
+  - id: osint-for-countries-egypt
+    name: OSINT in Egypt (community collection)
+    url: https://github.com/OSINT-for-countries/OSINT_in_Egypt
+    category: regional
+    country: "EG"
+    region: Africa
+    purpose: Community-maintained Egypt-specific registry, legal and open-source resource list.
+    cost: free
+    language: [en, ar]
+    tags: [egypt, registry, github]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
+
+  - id: osint-tools-emirates
+    name: OSINT Tools — Emirates
+    url: https://github.com/paulpogoda/OSINT-Tools-Emirates
+    category: regional
+    country: "AE"
+    region: Middle East
+    purpose: Curated UAE (Abu Dhabi, Dubai, Sharjah) OSINT tools and registry links.
+    cost: free
+    language: [en, ar]
+    tags: [uae, gcc, toolkit]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
+
+  - id: osint-for-countries-hub
+    name: OSINT for countries (methodology hub)
+    url: https://github.com/wddadk/OSINT-for-countries
+    category: regional
+    region: Global
+    purpose: Methodology and links template for building per-country OSINT collections.
+    cost: free
+    language: [en]
+    tags: [methodology, template, github]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
+
+  - id: eu-data-portal
+    name: data.europa.eu — EU Open Data Portal
+    url: https://data.europa.eu/en
+    category: regional
+    region: Europe
+    purpose: Official single access point for European open datasets and country portals.
+    cost: free
+    language: [en]
+    tags: [open-data, eu, api]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
+
+  - id: aws-open-data-registry
+    name: Registry of Open Data on AWS
+    url: https://registry.opendata.aws/
+    category: regional
+    region: Global
+    purpose: Index of large open datasets (satellite, climate, geospatial) queryable in the cloud.
+    cost: free
+    language: [en]
+    tags: [open-data, satellite, geospatial]
+    verified: "2026-09-30"
+    status: ok
+    readme_section: sources:regional
