@@ -35,7 +35,7 @@ jobs:
             --config ./lychee.toml
             --no-progress
             README.md countries/*.md
-          fail: false
+          fail: ${{ github.event_name == 'pull_request' }}
           jobSummary: true
           format: markdown
           output: ./lychee/report.md
