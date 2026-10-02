@@ -2733,3 +2733,7 @@ GPL-3 – Educational and research use. **Don't be naughty.**
 
 > «Information wants to be free, but privacy wants to be respected.»  
 > — unknown
+
+## Curation policy
+
+See [docs/curation-policy.md](docs/curation-policy.md).
