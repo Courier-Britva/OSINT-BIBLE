@@ -1,0 +1,1248 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-09-30",
+  "tools": [
+    {
+      "id": "osint-framework",
+      "name": "OSINT Framework",
+      "url": "https://osintframework.com/",
+      "category": "frameworks",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Curated OSINT resource index and links.",
+      "tags": [
+        "directory",
+        "starting-point"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Tree-based index of free OSINT resources by task class.",
+      "region": "GLOBAL",
+      "repo_url": "https://github.com/lockfale/osint-framework",
+      "readme_section": "26-all-in-one-frameworks"
+    },
+    {
+      "id": "osint-for-countries",
+      "name": "OSINT for Countries",
+      "url": "https://github.com/OSINT-for-countries",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Community-maintained per-country OSINT links.",
+      "tags": [
+        "country",
+        "directory"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Community-maintained country-by-country OSINT references (193 UN members).",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "digitaldigging-osint",
+      "name": "OSINT Resources by Country v2.0",
+      "url": "https://github.com/paulpogoda/OSINT-for-countries-V2.0",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Successor country OSINT collection by Henk van Ess; registries, cadastre, vehicle, people.",
+      "tags": [
+        "country",
+        "directory"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "cybdetective-osintmap",
+      "name": "OSINT Map (Cyb Detective)",
+      "url": "https://cybdetective.com/osintmap/",
+      "category": "datasets",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "World map of OSINT tools and resources.",
+      "tags": [
+        "map",
+        "directory"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Worldwide interactive map of OSINT tools and country resources.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "sawest",
+      "name": "SAWEST Public Sources",
+      "url": "https://sawest.eu/",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Free OSINT dataset aggregator and search.",
+      "tags": [
+        "public-records"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Catalogue of public-source research databases by jurisdiction.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "occrp-aleph",
+      "name": "OCCRP Aleph",
+      "url": "https://aleph.occrp.org/",
+      "category": "datasets",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Cross-border corporate and leaked-records search.",
+      "tags": [
+        "leaks",
+        "cross-border"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Searchable archive of company records, leaks and watchlists across jurisdictions. Intermittent 503 under load.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "occrp-id-databases",
+      "name": "OCCRP ID Databases",
+      "url": "https://id.occrp.org/databases/",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Index of OCCRP investigative databases.",
+      "tags": [
+        "public-records"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Index of investigative databases by country and topic.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "icij-offshoreleaks",
+      "name": "ICIJ Offshore Leaks Database",
+      "url": "https://offshoreleaks.icij.org/",
+      "category": "sanctions-ubo",
+      "type": "dataset",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Search across ICIJ Offshore Leaks investigations.",
+      "tags": [
+        "ubo",
+        "offshore"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Panama/Pandora/Paradise Papers entity graph for offshore ownership tracing.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "openownership-map",
+      "name": "Open Ownership Register Map",
+      "url": "https://www.openownership.org/en/map/",
+      "category": "sanctions-ubo",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Beneficial-ownership transparency map and register.",
+      "tags": [
+        "ubo",
+        "bods"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Beneficial-ownership registers by country with launch status.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "open-sanctions",
+      "name": "OpenSanctions",
+      "url": "https://www.opensanctions.org/",
+      "category": "sanctions-ubo",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Consolidated sanctions, PEP and watchlist data; bulk download available.",
+      "tags": [
+        "sanctions",
+        "pep"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "opencorporates",
+      "name": "OpenCorporates",
+      "url": "https://opencorporates.com/",
+      "category": "company-registry",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "World's largest open database of companies.",
+      "tags": [
+        "registry",
+        "aggregator"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Aggregator of official company registries worldwide.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "klear-maltego",
+      "name": "Maltego",
+      "url": "https://www.maltego.com/",
+      "category": "frameworks",
+      "type": "cli+gui",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Link-analysis graph platform with transform hub.",
+      "tags": [
+        "link-analysis"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "maltego-transform-hub",
+      "name": "Maltego Transform Hub",
+      "url": "https://www.maltego.com/transform-hub/",
+      "category": "frameworks",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Commercial hub of Maltego transform providers.",
+      "tags": [
+        "transforms"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Registry of Maltego transforms for OSINT data sources.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "spiderfoot",
+      "name": "SpiderFoot",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "category": "automation",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Automated OSINT collection across 200+ modules with correlator.",
+      "tags": [
+        "automation",
+        "recon"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "recon-ng",
+      "name": "Recon-ng",
+      "url": "https://github.com/lanmaster53/recon-ng",
+      "category": "automation",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Web reconnaissance framework with marketplace modules.",
+      "tags": [
+        "recon"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Modular web-reconnaissance framework with a Metasploit-like console.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "theharvester",
+      "name": "theHarvester",
+      "url": "https://github.com/laramies/theHarvester",
+      "category": "email-phone",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Email, subdomain and name enumeration from public sources.",
+      "tags": [
+        "emails",
+        "subdomains"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Email, subdomain and host enumeration from public sources.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "bbot",
+      "name": "BBOT",
+      "url": "https://github.com/blacklanternsecurity/bbot",
+      "category": "automation",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Recursive OSINT scanner with modular pipelines.",
+      "tags": [
+        "automation",
+        "recon"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Recursive internet-scanning and OSINT automation engine.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "maigret",
+      "name": "Maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "category": "username",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Username enumeration across 3000+ sites with report generation.",
+      "tags": [
+        "username"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "sherlock",
+      "name": "Sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "category": "username",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Hunt for usernames across social networks.",
+      "tags": [
+        "username"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Hunt down social-media accounts by username across many platforms.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "blackbird",
+      "name": "Blackbird",
+      "url": "https://github.com/p1ngul1n0/blackbird",
+      "category": "username",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Username search across many platforms.",
+      "tags": [
+        "username",
+        "email"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "OSINT tool that searches accounts by username or email with a web UI.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "holehe",
+      "name": "Holehe",
+      "url": "https://github.com/megadose/holehe",
+      "category": "email-phone",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Checks whether an email is registered on 120+ sites without alerting.",
+      "tags": [
+        "email",
+        "registration-check"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Checks whether an email is registered on 120+ sites without alerting the target.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "h8mail",
+      "name": "h8mail",
+      "url": "https://github.com/khast3x/h8mail",
+      "category": "breach-databases",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Email OSINT and breach-data correlation.",
+      "tags": [
+        "breach",
+        "email"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Email OSINT and breach-password hunting with API integration.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "phoneinfoga",
+      "name": "PhoneInfoga",
+      "url": "https://github.com/sundowndev/phoneinfoga",
+      "category": "email-phone",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Phone-number reconnaissance across public sources.",
+      "tags": [
+        "phone"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Phone-number information gathering and OSINT footprinting.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "ignorant",
+      "name": "Ignorant",
+      "url": "https://github.com/megadose/ignorant",
+      "category": "email-phone",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Checks whether a phone number is registered on platforms.",
+      "tags": [
+        "phone"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Checks whether a phone number is registered on Amazon, Instagram, Snapchat.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "subfinder",
+      "name": "Subfinder",
+      "url": "https://github.com/projectdiscovery/subfinder",
+      "category": "domain-ip-dns",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Passive subdomain enumeration using many online sources.",
+      "tags": [
+        "subdomains"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Passive subdomain discovery engine from ProjectDiscovery.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "amass",
+      "name": "OWASP Amass",
+      "url": "https://github.com/owasp-amass/amass",
+      "category": "domain-ip-dns",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "In-depth attack-surface mapping and external asset discovery.",
+      "tags": [
+        "attack-surface"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "dnsdumpster",
+      "name": "DNSDumpster",
+      "url": "https://dnsdumpster.com/",
+      "category": "domain-ip-dns",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Free DNS recon and domain profiling web tool.",
+      "tags": [
+        "dns"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "DNS recon and subdomain mapping with visualisation.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "crtsh",
+      "name": "crt.sh",
+      "url": "https://crt.sh/",
+      "category": "domain-ip-dns",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Certificate-transparency log search for subdomain enumeration.",
+      "tags": [
+        "ct-logs",
+        "subdomains"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "publicwww",
+      "name": "PublicWWW",
+      "url": "https://publicwww.com/",
+      "category": "dorking",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Find websites sharing the same source code or snippet.",
+      "tags": [
+        "source-code",
+        "attribution"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Source-code search engine: find sites by analytics ID, snippet or script.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "shodan",
+      "name": "Shodan",
+      "url": "https://www.shodan.io/",
+      "category": "network-recon",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Search engine for internet-connected devices and services.",
+      "tags": [
+        "iot",
+        "services"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Search engine for internet-connected devices and exposed services.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "censys",
+      "name": "Censys",
+      "url": "https://search.censys.io/",
+      "category": "network-recon",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Internet-wide scan data with certificate and host search.",
+      "tags": [
+        "attack-surface"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal",
+      "url": "https://www.virustotal.com/",
+      "category": "malware-analysis",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Multi-engine malware and URL analysis.",
+      "tags": [
+        "malware",
+        "ioc"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Multi-engine file/URL scanning plus passive DNS and relations.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "grep-app",
+      "name": "grep.app",
+      "url": "https://grep.app/",
+      "category": "dorking",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Regex code search across public repositories.",
+      "tags": [
+        "code-search",
+        "leaks"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Regex search across millions of public GitHub repositories.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "gitleaks",
+      "name": "Gitleaks",
+      "url": "https://github.com/gitleaks/gitleaks",
+      "category": "breach-databases",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Detect hardcoded secrets in git repositories.",
+      "tags": [
+        "secrets",
+        "git"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Detects hardcoded secrets and keys in git repositories.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "trufflehog",
+      "name": "TruffleHog",
+      "url": "https://github.com/trufflesecurity/trufflehog",
+      "category": "breach-databases",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Find, verify and analyse leaked credentials in source.",
+      "tags": [
+        "secrets",
+        "git"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Credential scanner with live-credential verification across git history.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "haveibeenpwned",
+      "name": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/",
+      "category": "breach-databases",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Check whether an email appears in known breaches.",
+      "tags": [
+        "breach"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Breach exposure check for email accounts and domains.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "dehashed",
+      "name": "DeHashed",
+      "url": "https://dehashed.com/",
+      "category": "breach-databases",
+      "type": "web",
+      "license": "commercial",
+      "cost": "paid",
+      "opensource": false,
+      "purpose": "Search across commercial breach and identity datasets.",
+      "tags": [
+        "breach"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Searchable breach-credential database with API access.",
+      "region": "GLOBAL",
+      "ethics_note": "Commercial breach-data search. Sources originate from publicly disclosed and illicit dumps; treat as breach exposure surface, not as a sole source of truth."
+    },
+    {
+      "id": "intelx",
+      "name": "Intelligence X",
+      "url": "https://intelx.io/",
+      "category": "darkweb",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Dark-web, paste and leak-site search engine.",
+      "tags": [
+        "darkweb",
+        "leaks"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Search engine for leaks, darknet, paste sites and historical data.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "exiftool",
+      "name": "ExifTool",
+      "url": "https://exiftool.org/",
+      "category": "image-verification",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Read, write and edit EXIF, IPTC and XMP metadata.",
+      "tags": [
+        "metadata",
+        "exif"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Reference metadata reader/writer for images, video and documents.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "suncalc",
+      "name": "SunCalc",
+      "url": "https://www.suncalc.org/",
+      "category": "geoint",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Sun position, shadow and golden-hour calculator.",
+      "tags": [
+        "chronolocation",
+        "shadows"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Sun position, shadow direction and golden-hour calculation for chronolocation.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "google-earth-pro",
+      "name": "Google Earth Pro",
+      "url": "https://www.google.com/earth/about/versions/",
+      "category": "geoint",
+      "type": "cli+gui",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Desktop satellite imagery and 3D terrain viewer.",
+      "tags": [
+        "geolocation",
+        "historical-imagery"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Historical imagery timeline, distance and 3D terrain measurement.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "sentinel-hub-browser",
+      "name": "Copernicus Data Space Browser",
+      "url": "https://browser.dataspace.copernicus.eu/",
+      "category": "satellite",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Sentinel-1/2/3/5P imagery browser for change detection.",
+      "tags": [
+        "sentinel",
+        "change-detection"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "graphistry",
+      "name": "Graphistry",
+      "url": "https://graphistry.com/",
+      "category": "frameworks",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Visual link-analysis platform for graph data.",
+      "tags": [
+        "link-analysis",
+        "graph"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "GPU-accelerated graph visualisation for large link-analysis datasets.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "neo4j",
+      "name": "Neo4j",
+      "url": "https://neo4j.com/",
+      "category": "frameworks",
+      "type": "cli+gui",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Graph database for relationship and link analysis.",
+      "tags": [
+        "graph",
+        "database"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Graph database widely used to model OSINT entity relationships.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "cytoscape",
+      "name": "Cytoscape",
+      "url": "https://cytoscape.org/",
+      "category": "frameworks",
+      "type": "cli+gui",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Open-source platform for complex-network visualisation.",
+      "tags": [
+        "graph"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Open-source network analysis and visualisation suite.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "c2pa",
+      "name": "C2PA",
+      "url": "https://c2pa.org/",
+      "category": "image-verification",
+      "type": "web",
+      "license": "public",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "C2PA open standard for content provenance and authenticity.",
+      "tags": [
+        "provenance",
+        "deepfake"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Content Credentials standard for provenance of digital media.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "content-credentials-verify",
+      "name": "Content Credentials Verify",
+      "url": "https://contentcredentials.org/",
+      "category": "image-verification",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Verify C2PA Content Credentials on images and video.",
+      "tags": [
+        "provenance",
+        "deepfake"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Public verifier that reads C2PA manifests in media files.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "reality-defender",
+      "name": "Reality Defender",
+      "url": "https://www.realitydefender.com/",
+      "category": "video-verification",
+      "type": "web",
+      "license": "commercial",
+      "cost": "paid",
+      "opensource": false,
+      "purpose": "Commercial deepfake and synthetic-media detection.",
+      "tags": [
+        "deepfake"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Deepfake and synthetic-media detection platform.",
+      "region": "GLOBAL",
+      "ethics_note": "Commercial deepfake detection. Detection is probabilistic; pair with C2PA / provenance checks and manual verification before publishing."
+    },
+    {
+      "id": "flightradar24",
+      "name": "Flightradar24",
+      "url": "https://www.flightradar24.com/",
+      "category": "transport-aviation",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Commercial flight tracking with historical playback.",
+      "tags": [
+        "ads-b",
+        "aviation"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Live ADS-B flight tracking with historical playback.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "adsbexchange",
+      "name": "ADS-B Exchange",
+      "url": "https://globe.adsbexchange.com/",
+      "category": "transport-aviation",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Unfiltered ADS-B flight tracker including military aircraft.",
+      "tags": [
+        "ads-b",
+        "military"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Unfiltered ADS-B feed including military and blocked aircraft.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "marinetraffic",
+      "name": "MarineTraffic",
+      "url": "https://www.marinetraffic.com/",
+      "category": "transport-maritime",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Live and historical vessel tracking via AIS.",
+      "tags": [
+        "ais",
+        "maritime"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "AIS vessel tracking, port calls and ownership data.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "vesselfinder",
+      "name": "VesselFinder",
+      "url": "https://www.vesselfinder.com/",
+      "category": "transport-maritime",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Vessel tracking and port arrival intelligence.",
+      "tags": [
+        "ais",
+        "maritime"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Vessel positions, IMO data and route history.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "arkham-intel",
+      "name": "Arkham Intelligence",
+      "url": "https://info.arkm.com/",
+      "category": "crypto-blockchain",
+      "type": "web",
+      "license": "freemium",
+      "cost": "freemium",
+      "opensource": false,
+      "purpose": "Blockchain analytics and on-chain entity resolution.",
+      "tags": [
+        "crypto",
+        "attribution"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Entity-attributed blockchain intelligence across major chains.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "awesome-osint-mcp-servers",
+      "name": "Awesome OSINT MCP Servers",
+      "url": "https://github.com/soxoj/awesome-osint-mcp-servers",
+      "category": "mcp",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Curated list of OSINT-focused MCP servers.",
+      "tags": [
+        "mcp",
+        "ai"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Curated list of Model Context Protocol servers for OSINT.",
+      "region": "GLOBAL",
+      "readme_section": "35-ai-agent-skills-mcp"
+    },
+    {
+      "id": "osint-tools-mcp-server",
+      "name": "osint-tools-mcp-server",
+      "url": "https://github.com/frishtik/osint-tools-mcp-server",
+      "category": "mcp",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Self-hosted MCP server exposing OSINT tools.",
+      "tags": [
+        "mcp",
+        "ai"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "MCP server exposing multiple OSINT tools to AI assistants.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "mcp-servers",
+      "name": "Model Context Protocol Servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "category": "mcp",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Reference MCP server implementations maintained by the MCP project.",
+      "tags": [
+        "mcp"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "socid-extractor",
+      "name": "socid-extractor",
+      "url": "https://github.com/soxoj/socid-extractor",
+      "category": "social-media",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Extract social-account IDs from profile pages.",
+      "tags": [
+        "social",
+        "uid"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Extracts account identifiers (UID, join date) from social profile URLs.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "mailcat",
+      "name": "gotator",
+      "url": "https://github.com/Josue87/gotator",
+      "category": "domain-ip-dns",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Permutation-based subdomain discovery generator.",
+      "tags": [
+        "subdomains"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "emailfinder",
+      "name": "EmailFinder",
+      "url": "https://github.com/Josue87/EmailFinder",
+      "category": "email-phone",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Email enumeration by domain and pattern.",
+      "tags": [
+        "email"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Searches public sources for email addresses tied to a domain.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "seekr",
+      "name": "Seekr",
+      "url": "https://github.com/seekr-osint/seekr",
+      "category": "frameworks",
+      "type": "cli",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Open-source multi-target people and identity search.",
+      "tags": [
+        "toolkit"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Multi-purpose OSINT toolkit with a built-in web interface.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "tracelabs",
+      "name": "Trace Labs",
+      "url": "https://tracelabs.org/",
+      "category": "learning",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Volunteer OSINT-for-missing-persons community.",
+      "tags": [
+        "training",
+        "ctf"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Crowdsourced OSINT CTF platform for missing-person investigations.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "bellingcat-resources",
+      "name": "Bellingcat Resources",
+      "url": "https://www.bellingcat.com/resources/",
+      "category": "learning",
+      "type": "web",
+      "license": "free",
+      "cost": "free",
+      "opensource": false,
+      "purpose": "Bellingcat online investigation toolkit.",
+      "tags": [
+        "methodology"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Methodology guides and tool walkthroughs from Bellingcat.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "osint-stuff-tool-collection",
+      "name": "OSINT Stuff Tool Collection",
+      "url": "https://github.com/cipher387/osint_stuff_tool_collection",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Curated OSINT tool and resource collection.",
+      "tags": [
+        "directory"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Large categorised inventory of OSINT tools by cipher387.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "jivoi-awesome-osint",
+      "name": "awesome-osint (jivoi)",
+      "url": "https://github.com/jivoi/awesome-osint",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Long-running curated list of OSINT tools.",
+      "tags": [
+        "awesome-list"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "The reference awesome-list of OSINT tools.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "ubikron-awesome-osint-lists",
+      "name": "Awesome OSINT Lists (ubikron)",
+      "url": "https://github.com/ubikron/Awesome-OSINT-Lists",
+      "category": "datasets",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Directory of curated OSINT resource lists.",
+      "tags": [
+        "awesome-list"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Aggregated collection of OSINT tools, resources and websites.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "osint-namecheckers-list",
+      "name": "OSINT Name Checkers List",
+      "url": "https://github.com/soxoj/osint-namecheckers-list",
+      "category": "username",
+      "type": "dataset",
+      "license": "open-source",
+      "cost": "free",
+      "opensource": true,
+      "purpose": "Curated list of per-platform username checkers.",
+      "tags": [
+        "username",
+        "names"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Catalogue of name/username availability checkers by country.",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "osint-industries",
+      "name": "OSINT Industries",
+      "url": "https://www.osint.industries/",
+      "category": "people",
+      "type": "web",
+      "license": "commercial",
+      "cost": "paid",
+      "opensource": false,
+      "purpose": "Commercial people-search by email, phone or name.",
+      "tags": [
+        "people-search"
+      ],
+      "status": "verified",
+      "verified_on": "2026-09-30",
+      "description": "Commercial lookup by email, phone, username or crypto wallet.",
+      "region": "GLOBAL",
+      "ethics_note": "Commercial people-search service. Verify local data-protection compliance (GDPR/CCPA/LGPD) and obtain a lawful basis before each lookup. Do not use for harassment, doxxing, or any purpose outside an active investigation."
+    }
+  ]
+}

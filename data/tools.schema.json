@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/frangelbarrera/OSINT-BIBLE/data/tools.schema.json",
+  "title": "OSINT-BIBLE tool registry",
+  "description": "Machine-readable registry of OSINT tools. Source of truth for the data layer; Markdown content is generated from this file.",
+  "type": "object",
+  "required": ["version", "last_verified", "tools"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+$" },
+    "last_verified": { "type": "string", "format": "date" },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "name", "url", "category", "type", "license", "purpose"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9-]+$",
+            "description": "Stable slug, unique across the dataset."
+          },
+          "name": { "type": "string", "minLength": 2, "maxLength": 120 },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://",
+            "description": "HTTPS only. Migrate any HTTP URL or drop it."
+          },
+          "docs_url": { "type": "string", "format": "uri" },
+          "repo_url": { "type": "string", "format": "uri" },
+          "category": {
+            "type": "string",
+            "enum": [
+              "search-engine", "dorking", "archives", "social-media", "people",
+              "email-phone", "username", "domain-ip-dns", "network-recon",
+              "breach-databases", "darkweb", "geoint", "satellite", "video-verification",
+              "image-verification", "facial-recognition", "crypto-blockchain",
+              "company-registry", "financial", "sanctions-ubo", "court-records",
+              "transport-aviation", "transport-maritime", "wifi-wardriving",
+              "threat-intel", "ics-ot", "malware-analysis", "cloud-storage",
+              "mobile-app", "decentralized-social", "counter-osint", "opsec",
+              "ai-osint", "mcp", "frameworks", "automation", "datasets",
+              "learning", "templates", "country-tool"
+            ]
+          },
+          "subcategory": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["web", "cli", "cli+gui", "api", "browser-ext", "dataset", "registry", "mobile"]
+          },
+          "license": {
+            "type": "string",
+            "enum": ["open-source", "free", "freemium", "commercial", "public", "unknown"]
+          },
+          "cost": {
+            "type": "string",
+            "enum": ["free", "freemium", "paid", "registration"],
+            "description": "Mirrors license but allows finer-grained cost modelling."
+          },
+          "opensource": {
+            "type": "boolean",
+            "description": "True when the tool source is available under an open licence."
+          },
+          "language": { "type": "string" },
+          "region": {
+            "type": "string",
+            "description": "ISO-3166 alpha-2 or 'GLOBAL'."
+          },
+          "country": {
+            "type": "string",
+            "pattern": "^[A-Z]{2}$",
+            "description": "ISO 3166-1 alpha-2; only for country-specific tools."
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 8,
+            "maxLength": 300,
+            "description": "One-sentence description of what the tool does."
+          },
+          "description": { "type": "string", "maxLength": 300 },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+            "maxItems": 8
+          },
+          "official": {
+            "type": "boolean",
+            "default": false,
+            "description": "True only for primary or official sources."
+          },
+          "status": {
+            "enum": ["verified", "unverified", "deprecated"],
+            "default": "verified"
+          },
+          "verified_on": { "type": "string", "format": "date" },
+          "readme_section": {
+            "type": "string",
+            "description": "Heading anchor in README.md where this tool is rendered."
+          },
+          "ethics_note": {
+            "type": "string",
+            "maxLength": 240,
+            "description": "Required when the tool has commercial, doxxing-adjacent, or jurisdiction-sensitive uses."
+          }
+        }
+      }
+    }
+  }
+}
