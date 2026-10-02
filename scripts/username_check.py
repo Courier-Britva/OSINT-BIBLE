@@ -38,9 +38,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 
 import requests
-import urllib3
 
-urllib3.disable_warnings()
 
 PLATFORMS = {
     "github": "https://github.com/{u}",
@@ -67,7 +65,7 @@ def probe(url):
     """Return (status, final_url)."""
     try:
         resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT,
-                            allow_redirects=True, verify=False, stream=True)
+                            allow_redirects=True, stream=True)
         code, final = resp.status_code, resp.url
         resp.close()
         if code == 200:

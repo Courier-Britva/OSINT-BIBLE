@@ -158,10 +158,8 @@ def cmd_dorks(args):
 
 def cmd_check(args):
     import concurrent.futures
-    import urllib3
     import requests
 
-    urllib3.disable_warnings()
     data = _load(TOOLS)
     urls = sorted({t["url"] for t in data["tools"]})
     if args.limit:
@@ -170,7 +168,7 @@ def cmd_check(args):
 
     def probe(u):
         try:
-            r = requests.get(u, headers=ua, timeout=25, allow_redirects=True, verify=False)
+            r = requests.get(u, headers=ua, timeout=25, allow_redirects=True)
             return (u, r.status_code)
         except Exception:
             return (u, None)

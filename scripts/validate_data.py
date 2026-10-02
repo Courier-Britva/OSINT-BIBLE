@@ -179,15 +179,13 @@ def _validate_countries() -> list[str]:
 
 def _check_links(urls: list[str], workers: int) -> list[dict]:
     import requests
-    import urllib3
-    urllib3.disable_warnings()
     headers = {"User-Agent": DEFAULT_UA, "Accept": "*/*"}
     DEAD, BLOCKED = {404, 410, 451}, {400, 401, 403, 406, 412, 429, 444}
 
     def probe(u: str) -> dict:
         try:
             r = requests.get(u, headers=headers, timeout=15,
-                             allow_redirects=True, verify=False, stream=True)
+                             allow_redirects=True, stream=True)
             code = r.status_code
             final = r.url
             r.close()
