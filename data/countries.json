@@ -1,0 +1,1806 @@
+{
+  "version": "1.0",
+  "countries": [
+    {
+      "code": "US",
+      "name": "United States",
+      "region": "Americas",
+      "file": "united-states.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "region": "Americas",
+      "file": "brazil.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "region": "Americas",
+      "file": "mexico.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "region": "Americas",
+      "file": "argentina.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "region": "Americas",
+      "file": "canada.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "region": "Western Europe",
+      "file": "united-kingdom.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "region": "Western Europe",
+      "file": "germany.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "region": "Western Europe",
+      "file": "france.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "region": "Western Europe",
+      "file": "spain.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "region": "Western Europe",
+      "file": "italy.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "region": "Western Europe",
+      "file": "poland.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "region": "Eastern Europe & Russia",
+      "file": "russia.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "region": "Eastern Europe & Russia",
+      "file": "ukraine.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "region": "Asia-Pacific",
+      "file": "china.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "KP-KR",
+      "name": "Korea (North & South)",
+      "region": "Asia-Pacific",
+      "file": "korea-north-and-south.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "region": "Asia-Pacific",
+      "file": "japan.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "region": "Middle East",
+      "file": "israel.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "IR",
+      "name": "Iran",
+      "region": "Middle East",
+      "file": "iran.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "region": "Middle East",
+      "file": "saudi-arabia.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "region": "Middle East",
+      "file": "turkey.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "region": "Oceania",
+      "file": "australia.md",
+      "last_reviewed": "2026-09-25",
+      "exists": true,
+      "sources": {}
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "region": "Middle East",
+      "file": "egypt.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "CAPMAS (Central Agency for Public Mobilization and Statistics)",
+            "url": "https://www.capmas.gov.eg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Central Bank of Egypt",
+            "url": "https://www.cbe.org.eg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Digital Egypt Platform (e-government services)",
+            "url": "https://digital.gov.eg",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED/geo — live in browser"
+          },
+          {
+            "name": "Egyptian Exchange (EGX)",
+            "url": "https://www.egx.com.eg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "GAFI (General Authority for Investment and Free Zones)",
+            "url": "https://www.gafi.gov.eg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Invest in Egypt portal",
+            "url": "https://www.investinegypt.gov.eg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Mada Masr (independent)",
+            "url": "https://madamasr.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Egypt Independent",
+            "url": "https://www.egyptindependent.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Egypt Watch (rights monitoring)",
+            "url": "https://egyptwatch.net",
+            "status": "unverified",
+            "verified_on": "2026-09-30",
+            "note": "UNVERIFIED — timeout at check time"
+          },
+          {
+            "name": "Egyptian Initiative for Personal Rights (EIPR)",
+            "url": "https://egyptianinitiative.org",
+            "status": "unverified",
+            "verified_on": "2026-09-30",
+            "note": "UNVERIFIED — timeout at check time"
+          }
+        ]
+      }
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "region": "South Asia",
+      "file": "india.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "MCA21 (Ministry of Corporate Affairs — company registry)",
+            "url": "https://www.mca.gov.in",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Reserve Bank of India",
+            "url": "https://www.rbi.org.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "SEBI",
+            "url": "https://www.sebi.gov.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "CPPP e-procurement",
+            "url": "https://eprocure.gov.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Sansad (Parliament digital library)",
+            "url": "https://sansad.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "National Crime Records Bureau",
+            "url": "https://ncrb.gov.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "NSE India (filings)",
+            "url": "https://www.nseindia.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "UIDAI (Aadhaar authority)",
+            "url": "https://uidai.gov.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "legal": [
+          {
+            "name": "Indian Kanoon (case law search)",
+            "url": "https://indiankanoon.org",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Scroll.in",
+            "url": "https://scroll.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "The Caravan",
+            "url": "https://caravanmagazine.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Alt News (fact-checking)",
+            "url": "https://www.altnews.in",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "region": "Western Europe",
+      "file": "netherlands.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "KVK Handelsregister (business register)",
+            "url": "https://www.kvk.nl/en/",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Rechtspraak.nl (court decisions)",
+            "url": "https://www.rechtspraak.nl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Overheid.nl (official publications)",
+            "url": "https://www.overheid.nl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "CBS Open Data (statistics)",
+            "url": "https://opendata.cbs.nl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "DNB (central bank)",
+            "url": "https://www.dnb.nl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Dutch Data Protection Authority",
+            "url": "https://www.autoriteitpersoonsgegevens.nl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Follow the Money (investigative)",
+            "url": "https://www.ftm.nl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "region": "Western Europe",
+      "file": "belgium.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Belgian Official Gazette (Moniteur belge)",
+            "url": "https://www.ejustice.just.fgov.be",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "KBO/BCE Public Search (company register)",
+            "url": "https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?lang=en",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "National Bank of Belgium",
+            "url": "https://www.nbb.be",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Statbel (statistics)",
+            "url": "https://statbel.fgov.be",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Belgian Data Protection Authority",
+            "url": "https://www.gegevensbeschermingsautoriteit.be",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Apache (investigative)",
+            "url": "https://www.apache.be",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "region": "Western Europe",
+      "file": "portugal.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Diário da República (official journal)",
+            "url": "https://diariodarepublica.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "INE Portugal (statistics)",
+            "url": "https://www.ine.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "BASE (public contracts)",
+            "url": "https://www.base.gov.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Banco de Portugal",
+            "url": "https://www.bportugal.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "CNPD (data protection)",
+            "url": "https://www.cnpd.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Publicações do Ministério da Justiça (company publications)",
+            "url": "https://www.publicacoes.mj.pt",
+            "status": "unverified",
+            "verified_on": "2026-09-30",
+            "note": "UNVERIFIED — connection error at check time"
+          }
+        ],
+        "press": [
+          {
+            "name": "Público",
+            "url": "https://www.publico.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "ECO (business)",
+            "url": "https://eco.sapo.pt",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "region": "Western Europe",
+      "file": "ireland.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Companies Registration Office (CRO)",
+            "url": "https://www.cro.ie",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Courts Service",
+            "url": "https://www.courts.ie",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Central Statistics Office",
+            "url": "https://www.cso.ie",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "An Garda Síochána",
+            "url": "https://www.garda.ie",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "data.gov.ie",
+            "url": "https://data.gov.ie",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "region": "Western Europe",
+      "file": "austria.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Firmenbuch (JustizOnline company register)",
+            "url": "https://justizonline.gv.at/jop/web/firmenbuchabfrage",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "RIS (legal information system)",
+            "url": "https://www.ris.bka.gv.at",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Statistik Austria",
+            "url": "https://www.statistik.at",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "DSN (military intelligence, public site)",
+            "url": "https://www.dsn.gv.at",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "data.gv.at (open data)",
+            "url": "https://www.data.gv.at",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "region": "Western Europe",
+      "file": "switzerland.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Zefix (central company index)",
+            "url": "https://www.zefix.ch/en/search/entity/welcome",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Fedlex (official law collection)",
+            "url": "https://www.fedlex.admin.ch",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Federal Statistical Office",
+            "url": "https://www.bfs.admin.ch",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "NDB (intelligence service, public site)",
+            "url": "https://www.ndb.ch",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "opendata.swiss",
+            "url": "https://opendata.swiss",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "region": "Eastern Europe & Russia",
+      "file": "czechia.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Justice.cz (public registers)",
+            "url": "https://or.justice.cz/ias/ui/rejstrik",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Czech Statistical Office",
+            "url": "https://www.czso.cz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "BIS (counterintelligence, public reports)",
+            "url": "https://www.bis.cz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "ÚOOÚ (data protection)",
+            "url": "https://www.uoou.cz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "civic": [
+          {
+            "name": "Hlídač státu (public-contract watchdog)",
+            "url": "https://www.hlidacstatu.cz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "region": "Western Europe",
+      "file": "greece.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "GEMI (General Commercial Registry)",
+            "url": "https://www.geminet.gr",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "ELSTAT (statistics)",
+            "url": "https://www.statistics.gr",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Hellenic DPA",
+            "url": "https://www.dpa.gr",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Ministry of Interior",
+            "url": "https://www.ypes.gr",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          }
+        ]
+      }
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "region": "Eastern Europe & Russia",
+      "file": "hungary.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "e-Cégjegyzék (company register)",
+            "url": "https://www.e-cegjegyzek.hu",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "KSH (statistics)",
+            "url": "https://www.ksh.hu",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "MNB (central bank)",
+            "url": "https://www.mnb.hu",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "NAIH (data protection)",
+            "url": "https://www.naih.hu",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Közbeszerzési Értesítő (public procurement)",
+            "url": "https://kozbeszerzes.hu",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "region": "Nordics",
+      "file": "sweden.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Bolagsverket (companies registration)",
+            "url": "https://bolagsverket.se/en",
+            "status": "redirect",
+            "verified_on": "2026-09-30",
+            "note": "OK-200 (redirects from www)"
+          },
+          {
+            "name": "Riksdagen (parliament)",
+            "url": "https://www.riksdagen.se",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Domstol.se (courts)",
+            "url": "https://www.domstol.se",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Säpo (security service)",
+            "url": "https://www.sakerhetspolisen.se",
+            "status": "unverified",
+            "verified_on": "2026-09-30",
+            "note": "UNVERIFIED at check time"
+          }
+        ]
+      }
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "region": "Nordics",
+      "file": "denmark.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "CVR (central business register)",
+            "url": "https://datacvr.virk.dk",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Danmarks Statistik",
+            "url": "https://www.dst.dk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "PET (security and intelligence service)",
+            "url": "https://www.pet.dk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Danish Data Protection Agency",
+            "url": "https://www.datatilsynet.dk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "region": "Nordics",
+      "file": "norway.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Brønnøysund Register Centre",
+            "url": "https://www.brreg.no/en",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Skatteetaten (tax administration)",
+            "url": "https://www.skatteetaten.no",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Politiet",
+            "url": "https://www.politiet.no",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "NSD (research data)",
+            "url": "https://www.nsd.no",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "data.norge.no",
+            "url": "https://data.norge.no",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "region": "Nordics",
+      "file": "finland.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "YTJ (business information)",
+            "url": "https://www.ytj.fi/en",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "PRH (Patent and Registration Office)",
+            "url": "https://www.prh.fi/en",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Statistics Finland",
+            "url": "https://www.tilastokeskus.fi",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Supo (security intelligence)",
+            "url": "https://www.supo.fi",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "region": "Oceania",
+      "file": "new-zealand.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Companies Register",
+            "url": "https://companies-register.companiesoffice.govt.nz/",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Ministry of Justice",
+            "url": "https://www.justice.govt.nz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Stats NZ",
+            "url": "https://www.stats.govt.nz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "GCSB (public site)",
+            "url": "https://www.gcsb.govt.nz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "data.govt.nz",
+            "url": "https://www.data.govt.nz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "SG",
+      "name": "Singapore",
+      "region": "Asia-Pacific",
+      "file": "singapore.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Bizfile+ (ACRA registry)",
+            "url": "https://www.bizfile.gov.sg/",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Monetary Authority of Singapore",
+            "url": "https://www.mas.gov.sg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Judiciary of Singapore",
+            "url": "https://www.judiciary.gov.sg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "data.gov.sg",
+            "url": "https://data.gov.sg",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "region": "Asia-Pacific",
+      "file": "malaysia.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "SSM (Companies Commission of Malaysia)",
+            "url": "https://www.ssm.com.my",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Bank Negara Malaysia",
+            "url": "https://www.bnm.gov.my",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "DOSM (statistics)",
+            "url": "https://www.dosm.gov.my",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Judiciary of Malaysia",
+            "url": "https://www.kehakiman.gov.my",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "TH",
+      "name": "Thailand",
+      "region": "Asia-Pacific",
+      "file": "thailand.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "DBD (Department of Business Development)",
+            "url": "https://www.dbd.go.th",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Bank of Thailand",
+            "url": "https://www.bot.or.th",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "National Statistical Office",
+            "url": "https://www.nso.go.th",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Revenue Department",
+            "url": "https://www.rd.go.th",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "VN",
+      "name": "Vietnam",
+      "region": "Asia-Pacific",
+      "file": "vietnam.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "National Business Registration Portal",
+            "url": "https://dangkykinhdoanh.gov.vn",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "State Bank of Vietnam",
+            "url": "https://www.sbv.gov.vn",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "region": "Asia-Pacific",
+      "file": "philippines.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "SEC Philippines (company registry)",
+            "url": "https://www.sec.gov.ph",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Bangko Sentral ng Pilipinas",
+            "url": "https://www.bsp.gov.ph",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Philippine Statistics Authority",
+            "url": "https://psa.gov.ph",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          }
+        ]
+      }
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "region": "Asia-Pacific",
+      "file": "indonesia.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "AHU Online (Ministry of Law — company registry)",
+            "url": "https://ahu.go.id",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "BPS (statistics)",
+            "url": "https://www.bps.go.id",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "IDX (Indonesia Stock Exchange)",
+            "url": "https://www.idx.co.id",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "OJK (financial services authority)",
+            "url": "https://www.ojk.go.id",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Tirto.id",
+            "url": "https://tirto.id",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Hukumonline",
+            "url": "https://www.hukumonline.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "region": "South Asia",
+      "file": "pakistan.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "SECP (company registry)",
+            "url": "https://www.secp.gov.pk",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "State Bank of Pakistan",
+            "url": "https://www.sbp.org.pk",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Pakistan Bureau of Statistics",
+            "url": "https://www.pbs.gov.pk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "FBR (Federal Board of Revenue)",
+            "url": "https://fbr.gov.pk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "region": "South Asia",
+      "file": "bangladesh.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Bangladesh Bank",
+            "url": "https://www.bb.org.bd",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "National Board of Revenue",
+            "url": "https://nbr.gov.bd",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "region": "Asia-Pacific",
+      "file": "taiwan.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "FindBiz (company registration data)",
+            "url": "https://findbiz.nat.gov.tw",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Central Bank of the R.O.C. (Taiwan)",
+            "url": "https://www.cbc.gov.tw",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Directorate-General of Budget, Accounting and Statistics",
+            "url": "https://www.dgbas.gov.tw",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Laws & Regulations Database",
+            "url": "https://law.moj.gov.tw",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "HK",
+      "name": "Hong Kong SAR",
+      "region": "Asia-Pacific",
+      "file": "hong-kong.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "ICRIS (Companies Registry cyber search)",
+            "url": "https://www.icris.cr.gov.hk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Hong Kong Monetary Authority",
+            "url": "https://www.hkma.gov.hk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Census and Statistics Department",
+            "url": "https://www.censtatd.gov.hk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Judiciary (legal reference)",
+            "url": "https://www.judiciary.hk",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "region": "Asia-Pacific",
+      "file": "south-korea.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "IROS (Internet Registry of Supreme Court)",
+            "url": "https://www.iros.go.kr",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Bank of Korea",
+            "url": "https://www.bok.or.kr",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "KOSTAT (statistics)",
+            "url": "https://kostat.go.kr",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Korean Law Information Center",
+            "url": "https://www.law.go.kr",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "region": "Americas",
+      "file": "colombia.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "RUES (business register)",
+            "url": "https://www.rues.org.co",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "DIAN (tax and customs)",
+            "url": "https://www.dian.gov.co",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Banco de la República",
+            "url": "https://www.banrep.gov.co",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Superintendencia de Sociedades",
+            "url": "https://www.supersociedades.gov.co",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "SECOP II (public contracts)",
+            "url": "https://www.contratos.gov.co",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          }
+        ],
+        "press": [
+          {
+            "name": "La Silla Vacía (investigative)",
+            "url": "https://www.lasillavacia.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "El Espectador",
+            "url": "https://www.elespectador.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "region": "Americas",
+      "file": "chile.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Servicio de Registro Civil e Identificación",
+            "url": "https://www.registrocivil.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "SII (internal revenue service)",
+            "url": "https://www.sii.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Banco Central de Chile",
+            "url": "https://www.bcentral.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Registro de Empresas y Sociedades",
+            "url": "https://www.registroempresas.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "BCN / LeyChile (legal database)",
+            "url": "https://www.bcn.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Diario Oficial",
+            "url": "https://www.diariooficial.interior.gob.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "CMF (financial market commission)",
+            "url": "https://www.cmfchile.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "CIPER Chile (investigative)",
+            "url": "https://www.ciperchile.cl",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "region": "Americas",
+      "file": "peru.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "SUNARP (registries)",
+            "url": "https://www.sunarp.gob.pe",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "SUNAT (tax administration)",
+            "url": "https://www.sunat.gob.pe",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "BCRP (central bank)",
+            "url": "https://www.bcrp.gob.pe",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "INEI (statistics)",
+            "url": "https://www.inei.gob.pe",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "SMV (securities market)",
+            "url": "https://www.smv.gob.pe",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Ojo Público (investigative)",
+            "url": "https://ojo-publico.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "region": "Africa",
+      "file": "south-africa.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "CIPC (companies and intellectual property)",
+            "url": "https://www.cipc.co.za",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "South African Revenue Service",
+            "url": "https://www.sars.gov.za",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "South African Reserve Bank",
+            "url": "https://www.resbank.co.za",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Statistics South Africa",
+            "url": "https://www.statssa.gov.za",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Department of Justice",
+            "url": "https://www.justice.gov.za",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Daily Maverick",
+            "url": "https://www.dailymaverick.co.za",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Africa Check (fact-checking)",
+            "url": "https://africacheck.org",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "region": "Africa",
+      "file": "nigeria.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "CAC (Corporate Affairs Commission)",
+            "url": "https://www.cac.gov.ng",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "Central Bank of Nigeria",
+            "url": "https://www.cbn.gov.ng",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "EFCC (anti-corruption commission)",
+            "url": "https://efcc.gov.ng",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Premium Times",
+            "url": "https://www.premiumtimesng.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "ICIR (International Centre for Investigative Reporting)",
+            "url": "https://www.icirnigeria.org",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "region": "Africa",
+      "file": "kenya.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Business Registration Service",
+            "url": "https://brs.go.ke",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Kenya National Bureau of Statistics",
+            "url": "https://www.knbs.or.ke",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Office of the Director of Public Prosecutions",
+            "url": "https://www.odpp.go.ke",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "region": "Africa",
+      "file": "morocco.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "High Commission for Planning (statistics)",
+            "url": "https://www.hcp.ma",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Bank Al-Maghrib",
+            "url": "https://www.bkam.ma",
+            "status": "blocked",
+            "verified_on": "2026-09-30",
+            "note": "BLOCKED-403 — live in browser"
+          },
+          {
+            "name": "data.gov.ma",
+            "url": "https://www.data.gov.ma",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "region": "Africa",
+      "file": "algeria.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "ONS (National Office of Statistics)",
+            "url": "https://www.ons.dz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Bank of Algeria",
+            "url": "https://www.bank-of-algeria.dz",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "region": "Middle East",
+      "file": "united-arab-emirates.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Ministry of Economy",
+            "url": "https://www.moec.gov.ae/en/",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Ministry of Finance",
+            "url": "https://www.mof.gov.ae",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Central Bank of the UAE",
+            "url": "https://www.centralbank.ae",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "DIFC (Dubai International Financial Centre)",
+            "url": "https://www.difc.ae",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "ADGM (Abu Dhabi Global Market)",
+            "url": "https://www.adgm.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "The National",
+            "url": "https://www.thenationalnews.com",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "region": "Middle East",
+      "file": "qatar.md",
+      "last_reviewed": null,
+      "exists": false,
+      "sources": {
+        "government": [
+          {
+            "name": "Ministry of Commerce and Industry",
+            "url": "https://www.moci.gov.qa",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Qatar Central Bank",
+            "url": "https://www.qcb.gov.qa",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          },
+          {
+            "name": "Qatar Financial Centre",
+            "url": "https://www.qfc.qa",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ],
+        "press": [
+          {
+            "name": "Doha News",
+            "url": "https://dohanews.co",
+            "status": "ok",
+            "verified_on": "2026-09-30"
+          }
+        ]
+      }
+    }
+  ]
+}
