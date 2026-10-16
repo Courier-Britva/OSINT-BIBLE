@@ -546,6 +546,7 @@ python3 gitgot.py -q "ORGNAME"
 2. **TikTok hashtag analysis toolset** - Link: [TikTok hashtag analysis toolset](https://github.com/bellingcat/tiktok-hashtag-analysis) - Description: The tool helps to download posts and videos from TikTok for a given set of hashtags over a period of time.
 3. **TikTok Video Downloader** - Link: [TikTok Video Downloader](https://ssstik.io/en-1) - Description: ssstiktok is a free TikTok video downloader without watermark tool that helps you download TikTok videos without watermark (Musically) online.
 4. **Exolyt** - Link: [exolyt](https://exolyt.com/) - Description: The best tool for TikTok analytics & insights.
+5. **TKMetrics** - Link: [TKMetrics](https://tkmetrics.com/) - Description: TikTok creator analytics from public profiles: free stats reports with followers, engagement rate and plays for the creators it has analysed, follower and video counts for other creators in its database (the search asks for an email), and an influencer finder ranked by typical views on recent videos (filters and CSV export are paid).
 
 ---
 
