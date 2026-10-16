@@ -259,6 +259,7 @@ graph TD
 - [CachedView](https://cachedview.com) (Google + Archive.is)
 - [URLScan](https://urlscan.io) → capture + DOM + requests
 - [Ubikron](https://ubikron.com ) → AI-powered evidence collection & entity extraction
+- [TrueScreen Forensic Browser](https://truescreen.io/forensic-browser/) → certified capture of web pages and browsing sessions (macOS, Windows)
 - [Screenshot Guru](https://screenshot.guru) → screen test
 - [Stored Website](https://stored.website) → cached pages
 - [YARAify](https://yaraify.abuse.ch) → YARA rules
@@ -495,6 +496,7 @@ python3 gitgot.py -q "ORGNAME"
 2. **WhatsApp Fake Chat** - Link: [WhatsApp Fake Chat](http://www.fakewhats.com/generator) - Description: An online tool to generate fake WhatsApp conversations for fun or pranks.
 3. **whatsfoto** - Link: [whatsfoto](https://github.com/zoutepopcorn/whatsfoto) - Description: A Python script to download profile pictures from WhatsApp contacts.
 4. **CheckLeaked WhatsApp** - Link: [CheckLeaked WhatsApp](https://whatsapp.checkleaked.cc) - Description: An online tool to look up WhatsApp numbers — download the current and historical profile pictures, read the About/bio text, and detect Business/Enterprise accounts. Free web interface with an optional API.
+5. **TrueScreen App** - Link: [TrueScreen App](https://truescreen.io/app/) - Description: Mobile app for iOS and Android that certifies a WhatsApp chat as a screen recording, together with photos, videos and audio, with a documented forensic methodology.
 
 ### 5.10 Skype
 1. **addmeContacts** - Link: [addmeContacts](http://add-me-contacts.com) - Description: A platform to find and connect with new contacts on various social media platforms.
@@ -2026,6 +2028,7 @@ site:amazonaws.com filetype:pdf "confidential"
 | Sensity AI | https://sensity.ai | Deepfake detection |
 | C2PA open-source SDK | https://opensource.contentauthenticity.org | Open-source Content Credentials tooling |
 | SynthID Text | https://github.com/google-deepmind/synthid-text | Text watermarking reference implementation |
+| TrueScreen C2PA Viewer | https://truescreen.io/c2pa-viewer/ | Reads and checks C2PA manifests in the browser, no upload or account |
 
 ### 44.2 Layered Verification Methodology
 
