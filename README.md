@@ -672,6 +672,7 @@ Following the withdrawal of Russian troops from Bucha (Ukraine) in March 2022, i
 | Certificates | CRT.sh | `curl https://crt.sh/?q=%25.target.com&output=json` |
 | Historical DNS | [SecurityTrails](https://securitytrails.com) | Free API 50/month |
 | Tech stack | [StackScan](https://www.stackscan.com) | 399M+ sites, reverse lookup by technology |
+| Tech stack | [looot-techstack](https://github.com/loootai/looot-techstack) | Self-hosted (MIT), 3 providers side by side per domain, reverse lookup by technology; paid looot API, ~$0.02/domain |
 | Neighbor IPs | [BGP.he](https://bgp.he.net) | CIDR |
 | Reputation | [VirusTotal](https://virustotal.com) | `vt ip_info <ip>` |
 | Quick scan | [Nmap-online](https://nmap.online) | no VPN |
