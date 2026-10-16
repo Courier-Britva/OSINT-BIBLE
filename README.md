@@ -1008,6 +1008,7 @@ status: draft # draft | reviewed | delivered
 | **h8mail** | Search in data breaches | https://github.com/khast3x/h8mail |
 | **EmailHippo** | Email verification | https://tools.emailhippo.com |
 | **Hunter.io** | Find corporate emails | https://hunter.io |
+| **Opsis** | Find accounts linked to an email, username or domain (paid) | https://useopsis.com |
 
 #### **📱 Phone OSINT Tools**
 
