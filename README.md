@@ -540,6 +540,7 @@ python3 gitgot.py -q "ORGNAME"
 8. **Hubite** - Link: [Hubite](https://hubite.com/en/onlyfans-search/) - Description: Advanced OnlyFans Search Engine.
 9. **Similarfans** - Link: [Similarfans](https://similarfans.com/) - Description: Blog for OnlyFans content creators.
 10. **Fansearch** - Link: [Fansearch](https://www.fansearch.com/) - Description: Fansearch is the best OnlyFans Finder to search in 3,000,000 OnlyFans Accounts.
+11. **OnlyFans Finders** - Link: [OnlyFans Finders](https://onlyfansfinders.com/) - Description: Free search of public OnlyFans profiles (published by the creators themselves) by city, category and price; profiles re-checked against OnlyFans monthly. No private or leaked content. Removal: [privacy policy](https://onlyfansfinders.com/privacy.html#removal).
 
 ### 5.14 TikTok
 1. **Mavekite** - Link: [Mavekite](https://mavekite.com/) - Description: Search the profile using username.
