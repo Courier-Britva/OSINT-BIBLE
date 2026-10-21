@@ -195,8 +195,8 @@
       "name": "Egypt",
       "region": "Middle East",
       "file": "egypt.md",
-      "last_reviewed": null,
-      "exists": false,
+      "last_reviewed": "2026-09-30",
+      "exists": true,
       "sources": {
         "government": [
           {

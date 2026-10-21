@@ -38,6 +38,7 @@ This directory contains the country and regional research formerly embedded in t
 - [Iran](./iran.md)
 - [Saudi Arabia](./saudi-arabia.md)
 - [Turkey](./turkey.md)
+- [Egypt](./egypt.md)
 
 ### Oceania
 
