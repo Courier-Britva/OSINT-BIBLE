@@ -2317,12 +2317,14 @@ The country research is organized as individual Markdown files in [`countries/`]
 
 | Region | Countries | Directory |
 |---|---|---|
-| Americas | [United States](./countries/united-states.md), [Brazil](./countries/brazil.md), [Mexico](./countries/mexico.md), [Argentina](./countries/argentina.md), [Canada](./countries/canada.md) | [`countries/`](./countries/) |
+| Americas | [United States](./countries/united-states.md), [Brazil](./countries/brazil.md), [Mexico](./countries/mexico.md), [Argentina](./countries/argentina.md), [Canada](./countries/canada.md), [Colombia](./countries/colombia.md) | [`countries/`](./countries/) |
 | Western Europe | [United Kingdom](./countries/united-kingdom.md), [Germany](./countries/germany.md), [France](./countries/france.md), [Spain](./countries/spain.md), [Italy](./countries/italy.md), [Poland](./countries/poland.md) | [`countries/`](./countries/) |
 | Eastern Europe & Russia | [Russia](./countries/russia.md), [Ukraine](./countries/ukraine.md) | [`countries/`](./countries/) |
-| Asia-Pacific | [China](./countries/china.md), [Korea (North & South)](./countries/korea-north-and-south.md), [Japan](./countries/japan.md) | [`countries/`](./countries/) |
-| Middle East | [Israel](./countries/israel.md), [Iran](./countries/iran.md), [Saudi Arabia](./countries/saudi-arabia.md), [Turkey](./countries/turkey.md) | [`countries/`](./countries/) |
+| Asia-Pacific | [China](./countries/china.md), [Korea (North & South)](./countries/korea-north-and-south.md), [Japan](./countries/japan.md), [Indonesia](./countries/indonesia.md) | [`countries/`](./countries/) |
+| Middle East | [Israel](./countries/israel.md), [Iran](./countries/iran.md), [Saudi Arabia](./countries/saudi-arabia.md), [Turkey](./countries/turkey.md), [Egypt](./countries/egypt.md), [United Arab Emirates](./countries/united-arab-emirates.md) | [`countries/`](./countries/) |
 | Oceania | [Australia](./countries/australia.md) | [`countries/`](./countries/) |
+| South Asia | [India](./countries/india.md) | [`countries/`](./countries/) |
+| Africa | [Nigeria](./countries/nigeria.md), [South Africa](./countries/south-africa.md) | [`countries/`](./countries/) |
 
 ### Country research standards
 
